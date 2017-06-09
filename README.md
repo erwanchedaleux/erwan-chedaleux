@@ -17,7 +17,7 @@ Specifications
 Instances
 --------------
 ***
-1. **Preprod env (on customer's hosting)**
+1. **Preprod env**
   * To be completed
 
 2. **Production env**
