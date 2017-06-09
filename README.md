@@ -45,4 +45,3 @@ Deploy procedure
 --------------
 ***
   * To be completed
->>>>>>> Init project
