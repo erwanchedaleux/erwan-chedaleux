@@ -1,0 +1,13 @@
+<footer class="site-footer">
+    <div class="inner">
+        <div class="sf-social-networks">
+            {% for social in meta.social %}
+                <a href="{{ social.url }}" title="{{ social.title }}" {% if social.url starts with "skype" %}target="_self"{% else %}target="_blank"{% endif %}>
+                    {{ social.title }}
+                    <span class="icon-{{ social.icon }}"></span>
+                </a>
+            {% endfor %}
+        </div>
+        <p class="sf-copyright">© 2007 - 2014 | www.erwan-chedaleux.fr</p>
+    </div>
+</footer>

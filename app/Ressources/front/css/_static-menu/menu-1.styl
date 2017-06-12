@@ -1,0 +1,209 @@
+body
+
+    &.sm-open
+        overflow                   hidden
+
+.static-menu
+    display                        none
+    position                       absolute
+    font-family                    'Roboto', sans-serif
+    font-size                      1.4rem
+    line-height                    1.5
+
+    &.active
+        display                    block
+
+    &.hidden
+        display                    none
+
+#main
+    transition                     all 0.5s cubic-bezier(.1,.8,.17,.896)
+    width                          100%
+    position                       relative
+
+    &.open
+        transform                  translate( 250px, 0 )
+        box-shadow                 0 0 50px 0 rgba( #000000, 0.5 )
+
+.sm-btn
+    transition                     all 0.5s cubic-bezier(.1,.8,.17,.896)
+    width                          50px
+    height                         50px
+    background-color               $backgroundColor
+    border                         1px solid $borderColor
+    position                       fixed
+    top                            20px
+    left                           20px
+    z-index                        9
+
+    &.alt
+        display                    none
+
+    &:hover
+        cursor                     pointer
+
+    .sm-icon
+        transition                 all 0.5s cubic-bezier(.1,.8,.17,.896)
+        position                   absolute
+        width                      30px
+        height                     2px
+        background-color           $textColor
+        top                        24px
+        left                       10px
+
+        &:before
+        &:after
+            transition             all 0.5s cubic-bezier(.1,.8,.17,.896)
+            background-color       $textColor
+            position               absolute
+            content                ""
+            width                  30px
+            height                 2px
+            left                   0px
+
+        &:before
+            top                    -7px
+
+        &:after
+            top                    7px
+
+    &.open
+        transform                  translate( 250px, 0 )
+
+        .sm-icon
+            background-color       transparent
+
+            &:before
+            &:after
+                top                0
+
+            &:before
+                transform          rotate( -45deg )
+
+            &:after
+                transform          rotate( 45deg )
+
+.sm-nav
+    margin                         0
+    padding                        0
+    background-color               $backgroundColor
+    width                          100%
+    height                         100%
+    position                       fixed
+    left                           0
+    top                            0
+
+    .sm-list
+        width                      250px
+        height                     100%
+        margin                     10px 0 0 0
+        overflow                   auto
+
+    .sm-title
+        display                    block
+        padding                    5px 10px 5px 20px
+        color                      rgba( $textColor, 0.9 )
+        letter-spacing             0.02em
+        text-align                 left
+        cursor                     default
+        text-transform             uppercase
+        font-weight                bold
+
+    .sm-itm
+        display                    block
+        padding                    5px 10px 5px 20px
+        color                      rgba( $textColor, 0.9 )
+        letter-spacing             0.02em
+        text-align                 left
+        cursor                     default
+
+        &.danger
+            .sm-itm-title
+                color              lightness( $errorColor, 80 )
+
+        &.sm-itm-forms
+        &.sm-itm-template
+            .sm-icon-text
+                display            block
+                margin-top         -25px
+                margin-left        26px
+                font-weight        bold
+
+        kbd
+            display                inline-block
+            margin                 0 13px 10px 0
+            padding                2px 10px
+            font-size              1.5rem
+            color                  $color4
+            background-color       $color3
+            border-radius          3px
+
+    .sm-lnk
+        color                      rgba( $textColor, 0.9 )
+        cursor                     pointer
+        display                    block
+        text-overflow              ellipsis
+        white-space                nowrap
+        overflow                   hidden
+        width                      100%
+        transition                 all 0.5s cubic-bezier(.1,.8,.17,.896)
+
+        &:hover
+            color                  rgba( $textColor, 1 )
+
+    .sm-sublist
+        padding                    5px 0 5px 10px
+
+        .checkbox-item
+            display                inline
+
+        .sm-itm
+            padding                5px 0
+
+        .sm-lnk
+            color                  rgba( $textColor, 0.5 )
+
+            &:hover
+                color              rgba( $textColor, 1 )
+
+    .forms
+        .checkbox-fields
+            margin-bottom          0
+
+        .checkbox-group
+            margin-top             2px
+
+            .labels
+                font-size          1.2rem
+                margin-bottom      0
+                color              rgba( $textColor, 0.7 )
+
+        .checkbox-item
+            .shape
+                &::before
+                    border           1px solid rgba( $textColor, 0.7 )
+
+        .checkbox-item
+            .shape
+                &::after
+                    background-color rgba( $textColor, 0.7 )
+
+                &.alt
+                    .shape
+                        &::before
+                            border-color rgba( $textColor, 0.7 )
+                        &::after
+                            background-color rgba( $textColor, 0.7 )
+
+
+/* Mobile Media Queries */
+@media all and ( max-width: $smallScreenContentMinWidth )
+
+    .sm-btn
+        top                            -1px
+        left                           -27px
+        background-color               transparent
+        border                         none
+
+        &.open
+            left                       -50px

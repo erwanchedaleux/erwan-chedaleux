@@ -1,0 +1,324 @@
+body.sm-active
+    position                       relative
+    padding                        50px 0 0 0
+
+    &.sm-close
+        padding                    0
+
+        .static-menu
+            background-color       transparent
+
+            &:after
+                content            none
+
+    &.sm-hidden
+        padding                    0
+
+.static-menu
+    display                        none
+    position                       absolute
+    z-index                        300
+    right                          0
+    top                            0
+    width                          100%
+    height                         50px
+    font-family                    'Roboto', sans-serif
+    background-color               $backgroundColor
+
+    &.active
+        display                    block
+
+    &:after
+        content                    ""
+        position                   absolute
+        bottom                     0
+        left                       0
+        background-color           $borderColor
+        width                      100%
+        height                     1px
+
+    &.close
+        top                        0
+        width                      50px
+        height                     50px
+        overflow                   hidden
+
+    &.hidden
+        display                    none
+
+.sm-btn
+    display                        none
+
+    &.alt
+        display                    block
+        position                   absolute
+        top                        0
+        right                      0
+        transition-duration        0.2s
+        transition-timing-function swing
+        width                      50px
+        height                     50px
+        z-index                    9
+        border-left                1px solid rgba( $textColor, 0.2 )
+
+    &:hover
+        cursor                     pointer
+        background-color           lightness( $backgroundColor, 30% )
+
+    .sm-icon
+        transition-duration        0.2s
+        position                   absolute
+        width                      20px
+        height                     2px
+        background-color           transparent
+        top                        50%
+        left                       50%
+        transform                  translate( -50%, -50% )
+
+        &:before
+        &:after
+            transition-duration    0.2s
+            background-color       $textColor
+            position               absolute
+            content                ""
+            width                  20px
+            height                 2px
+            left                   0
+            top                    0
+
+        &:before
+            transform              rotate( -45deg )
+
+        &:after
+            transform              rotate( 45deg )
+
+    &.close
+
+        .sm-icon
+            background-color       $textColor
+
+            &:before
+            &:after
+                top                0
+
+            &:before
+                transform          rotate( 0 )
+                top                -7px
+
+            &:after
+                transform          rotate( 0 )
+                top                7px
+
+.sm-nav
+    float                          left
+    height                         100%
+    width                          100%
+    box-sizing                     border-box
+    opacity                        1
+    // transition-duration            0.2s
+    // transition-timing-function     swing
+
+    &.close
+        width                      0
+        opacity                    0
+
+    .sm-title
+        display                    none
+
+    .sm-list
+        width                      100%
+        height                     100%
+        padding-right              53px
+        box-sizing                 border-box
+        margin                     0
+
+    .sm-itm
+        position                   relative
+        display                    block
+        float                      left
+        padding                    15px
+        margin                     0
+        color                      rgba( $textColor, 0.8 )
+        letter-spacing             0.02em
+        font-size                  1.3rem
+        line-height                1.5
+        text-align                 left
+        cursor                     pointer
+
+        &:hover
+            background-color       lightness( $backgroundColor, 30% )
+
+            .sm-sublist
+                visibility         visible
+                opacity            1
+                transform          translateY( 0 )
+
+            .sm-triangle
+
+                &:after
+                    transform     rotate( 90deg )
+
+        kbd
+            display               inline-block
+            margin                0 13px 10px 14px
+            padding               2px 10px
+            font-size             1.5rem
+            color                 $color4
+            background-color      $color3
+            border-radius         3px
+
+    .sm-itm-template
+        float                      right
+        padding                    16px 0
+        box-sizing                 border-box
+        text-align                 center
+        width                      50px
+        height                     50px
+
+        &:hover
+            background-color       lightness( $backgroundColor, 30% )
+
+        .sm-icon-template
+            padding-top            1px
+
+            .sm-icon-text
+                display            none
+
+    .sm-itm-forms
+        padding                    16px 0
+        float                      right
+        box-sizing                 border-box
+        text-align                 center
+        width                      50px
+        height                     50px
+
+        .sm-icon-toothed-wheel
+            .sm-icon-text
+                display            none
+
+        &:hover
+            background-color       lightness( $backgroundColor, 30% )
+
+        .sm-sublist
+            left                   inherit
+            right                  0
+
+    .sm-lnk
+        color                      rgba( $textColor, 0.9 )
+        cursor                     pointer
+        display                    block
+        padding                    0
+        text-overflow              ellipsis
+        white-space                nowrap
+        overflow                   hidden
+        width                      100%
+        max-width                  150px
+        font-size                  1.3rem
+        line-height                1.5
+
+        &:hover
+            color                  rgba( $textColor, 1 )
+
+    .sm-triangle
+
+        &:after
+            content                ""
+            position               relative
+            top                    1px
+            display                inline-block
+            margin-left            10px
+            width                  0
+            height                 0
+            border-style           solid
+            border-width           5px 0 5px 6px
+            border-color           transparent transparent transparent $textColor
+            transition             all 0.2s ease
+
+    .sm-itm-forms
+        &.danger
+            background-color       lightness( $errorColor, 60 )
+
+    .sm-sublist
+        visibility                 hidden
+        opacity                    0
+        transform                  translateY( -20px )
+        position                   absolute
+        z-index                    2
+        top                        50px
+        left                       0
+        min-width                  200px
+        background-color           lightness( $backgroundColor, 30% )
+        box-shadow                 0 5px 10px 0 rgba( #000000, 0.2 )
+        transition                 all 0.2s ease
+        margin                     0
+
+        .checkbox-item
+            display                inline
+
+        .sm-itm-title
+            display                block
+            text-align             left
+            color                  $textColor
+            font-weight            bold
+            padding                10px 0 5px 14px
+            border-top             1px solid rgba( $textColor, 0.1 )
+
+            &:nth-child(1)
+                border-top         none
+
+        .sm-itm
+            float                  none
+            display                block
+            padding                0
+            border-right           none
+
+        .sm-lnk
+            padding                5px 15px
+            font-size              1.3rem
+            max-width              100%
+            color                  rgba( $textColor, 0.7 )
+            box-sizing             border-box
+
+            &:hover
+                color              rgba( $textColor, 1 )
+                background-color   rgba( #ffffff, 0.1 )
+
+    .forms
+        .checkbox-fields
+            margin-bottom          0
+
+        .checkbox-group
+            margin-top             2px
+
+            .labels
+                font-size          1.2rem
+                margin-bottom      0
+                color              rgba( $textColor, 0.7 )
+
+        .checkbox-item
+            .shape
+                &::before
+                    border           1px solid rgba( $textColor, 0.7 )
+
+        .checkbox-item
+            .shape
+                &::after
+                    background-color rgba( $textColor, 0.7 )
+
+                &.alt
+                    .shape
+                        &::before
+                            border-color rgba( $textColor, 0.7 )
+                        &::after
+                            background-color rgba( $textColor, 0.7 )
+
+
+/* Mobile Media Queries */
+@media all and ( max-width: $smallScreenContentMinWidth )
+
+    body.sm-active
+        padding                    0
+
+    .static-menu
+        visibility                 hidden
+        opacity                    0

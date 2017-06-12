@@ -4,7 +4,8 @@ Portfolio - Erwan Chedaleux
 Features
 --------------
 ***
-  * Pulse CMS admin
+  * Pico CMS admin
+  * Pico admin plugin
   * Static templates display for frontend dev
 
 
