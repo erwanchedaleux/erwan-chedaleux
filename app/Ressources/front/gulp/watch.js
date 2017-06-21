@@ -23,7 +23,7 @@ module.exports = function( gulp, pkg, config ) {
     gulp.task( 'watchJS_Inline', function() {
         gulp.watch( [
                 config.path.resources.js + 'vendor/loadcss/*.js'
-            ], gulp.series( 'concatInlineJS', 'notifyInlineJS' ) );
+            ], gulp.series( 'concatInlineJSDev', 'concatInlineJSProd', 'notifyInlineJS' ) );
     } );
 
     gulp.task( 'watchStylus', function() {

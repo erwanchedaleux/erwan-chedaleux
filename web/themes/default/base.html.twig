@@ -70,6 +70,9 @@
 
     {# STYLESHEETS #}
     {% block stylesheets %}
+        {% if not config.twig_config.debug %}
+            <link rel="stylesheet" href="{{ theme_url }}/assets/css/fonts.css">
+        {% endif %}
         <link rel="preload" href="{{ theme_url }}/assets/css/styles.css" as="style" onload="this.rel='stylesheet';this.onload=''">
         <noscript><link rel="stylesheet" href="{{ theme_url }}/assets/css/styles.css"></noscript>
         <link rel="preload" href="{{ theme_url }}/assets/css/images.css" as="style" onload="this.rel='stylesheet';this.onload=''">
@@ -79,26 +82,45 @@
     {# INLINE JS #}
     {% block inline_js %}
         <script>
-            {% include '/system/inlineJS.js' %}
+            {% if config.twig_config.debug %}
+                {% include '/system/inlineJS-dev.js' %}
+            {% else %}
+                {% include '/system/inlineJS-prod.js' %}
+            {% endif %}
         </script>
     {% endblock inline_js %}
 
     {# FONTS LOADING #}
-    <script>
-        var client = new XMLHttpRequest();
-        client.open('GET', '{{ theme_url }}/assets/css/fonts.css');
-        client.send();
-    </script>
-    <noscript><link rel="stylesheet" href="{{ theme_url }}/assets/css/fonts.css"></noscript>
+    {% if not config.twig_config.debug %}
+        <script>
+            window.siteStarter.getFile('{{ theme_url }}/assets/css/fonts.css');
+        </script>
+        <noscript><link rel="stylesheet" href="{{ theme_url }}/assets/css/fonts.css"></noscript>
+    {% endif %}
 
     {# MAIN JAVACRIPTS #}
     {% block main_javascripts %}
-        <script defer src="{{ theme_url }}/assets/js/scripts.js"></script>
+        <script defer src="{{ theme_url }}/system/config.js"></script>
+        <script defer src="{{ theme_url }}/assets/js/main.js"></script>
     {% endblock main_javascripts %}
+
+    {# HEAD JAVASCRIPTS #}
+    {% block head_javascripts %}
+        {% if config.twig_config.debug %}
+            <script defer src="{{ theme_url }}/assets/js/polyfill/promises.js"></script>
+            <script defer src="{{ theme_url }}/assets/js/polyfill/picturefill.js"></script>
+            <script defer src="{{ theme_url }}/assets/js/lib.js"></script>
+            <script defer src="{{ theme_url }}/assets/js/scripts.js"></script>
+        {% endif %}
+        {% block extra_head_javascripts '' %}
+    {% endblock head_javascripts %}
 </head>
 <body>
     {% block body %}
         {% block global_content '' %}
     {% endblock body %}
+    {% if not config.twig_config.debug %}
+        {# Code Google Anlytics #}
+    {% endif %}
 </body>
 </html>

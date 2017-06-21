@@ -43,6 +43,7 @@ module.exports = function( gulp, pkg, config ) {
                     "sourceMap":                   false,
                     "sourceMapIncludeSources":     false
                 } ) )
+                .pipe( header( credits.library.join( '\n *  ' ), pkg ) )
                 .pipe( gulp.dest( config.path.web.js ) );
     } );
 
@@ -79,28 +80,14 @@ module.exports = function( gulp, pkg, config ) {
     gulp.task( 'inline-uglify',  function() {
         return gulp
                 .src( [
-                    config.path.web.system + 'inlineJS.js'
+                    config.path.web.system + 'inlineJS-dev.js',
+                    config.path.web.system + 'inlineJS-prod.js'
                 ] )
                 .pipe( uglify( {
                     "sourceMap":                   false,
                     "sourceMapIncludeSources":     false
                 } ) )
                 .pipe( gulp.dest( config.path.web.system ) );
-    } );
-
-
-
-    gulp.task( 'static-menu',  function() {
-        return gulp
-                .src( [
-                    config.path.web.js+ 'static-menu.js'
-                ] )
-                .pipe( uglify( {
-                    "sourceMap":                   false,
-                    "sourceMapIncludeSources":     false
-                } ) )
-                .pipe( header( credits.generic.join( '\n *  ' ), pkg ) )
-                .pipe( gulp.dest( config.path.web.js) );
     } );
 
 };

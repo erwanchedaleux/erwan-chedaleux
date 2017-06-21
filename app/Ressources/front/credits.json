@@ -1,32 +1,42 @@
 {
     "css": [
         "/*!",
-        "<%= title %>",
+        "<%= author.name %>",
+        "<%= author.url %>",
         "@version: <%= version %>",
         "",
         "Thanks to \n *",
-        "Spectre.css | MIT License | github.com/picturepan2/spectre",
         "Manually forked from Normalize.css",
         "normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css",
         "\n*/\n\n"
     ],
     "scripts": [
         "/*!",
-        "<%= title %>",
+        "<%= author.name %>",
+        "<%= author.url %>",
         "@version: <%= version %>",
         "",
         "Thanks to \n *",
         "Domready - (c) Dustin Diaz - License MIT",
         "Bean - copyright (c) Jacob Thornton",
         "Reqwest - license MIT (c) Dustin Diaz",
-        "TweenLite - http://www.greensock.com",
         "Picturefill - http://scottjehl.github.io/picturefill",
         "es6-promise - https://github.com/stefanpenner/es6-promise",
         "\n*/\n\n"
     ],
+    "library": [
+        "/*!",
+        "<%= author.name %>",
+        "<%= author.url %>",
+        "@version: <%= version %>",
+        "",
+        "Thanks to \n *",
+        "\n*/\n\n"
+    ],
     "main": [
         "/*!",
-        "<%= title %>",
+        "<%= author.name %>",
+        "<%= author.url %>",
         "@version: <%= version %>",
         "",
         "Thanks to \n *",
@@ -36,7 +46,8 @@
     ],
     "generic": [
         "/*!",
-        "<%= title %>",
+        "<%= author.name %>",
+        "<%= author.url %>",
         "@version: <%= version %>",
         "\n*/\n\n"
     ],

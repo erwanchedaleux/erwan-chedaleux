@@ -103,13 +103,26 @@ module.exports = function( gulp, pkg, config ) {
                 .pipe( gulp.dest( config.path.web.js ) );
     } );
 
-    gulp.task( 'concatInlineJS',  function() {
+    gulp.task( 'concatInlineJSDev',  function() {
         return gulp
                 .src( [
                     config.path.resources.js + 'vendor/loadcss/loadCSS.js',
                     config.path.resources.js + 'vendor/loadcss/cssrelpreload.js'
                 ] )
-                .pipe( gulpConcat( 'inlineJS.js' ) )
+                .pipe( gulpConcat( 'inlineJS-dev.js' ) )
+                .pipe( gulp.dest( config.path.web.system ) );
+    } );
+
+
+
+    gulp.task( 'concatInlineJSProd',  function() {
+        return gulp
+                .src( [
+                    config.path.resources.js + 'vendor/loadcss/loadCSS.js',
+                    config.path.resources.js + 'vendor/loadcss/cssrelpreload.js',
+                    config.path.resources.js + 'config/starter.js'
+                ] )
+                .pipe( gulpConcat( 'inlineJS-prod.js' ) )
                 .pipe( gulp.dest( config.path.web.system ) );
     } );
 

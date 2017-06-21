@@ -25,7 +25,7 @@ require( './gulp/version' )( gulp, pkg, config  );
 gulp.task( 'css', gulp.parallel( 'allcss', 'inlinecss' ) );
 gulp.task( 'css-optimization', gulp.parallel( 'cssmin', 'inline-cssmin' ) );
 
-gulp.task( 'scripts', gulp.parallel( 'browserify', 'browserifyPolyfill', 'concatMain', 'concatLib', 'concatInlineJS' ) );
+gulp.task( 'scripts', gulp.parallel( 'browserify', 'browserifyPolyfill', 'concatMain', 'concatLib', 'concatInlineJSDev', 'concatInlineJSProd' ) );
 gulp.task( 'scripts-optimization', gulp.parallel( 'uglify-main', 'uglify-scripts', 'uglify-lib', 'uglify-picturefill', 'uglify-promises', 'inline-uglify' ) );
 
 

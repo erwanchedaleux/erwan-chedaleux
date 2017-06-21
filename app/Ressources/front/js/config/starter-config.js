@@ -18,4 +18,6 @@
     files = files.concat( PROJECT.files.main );
 
     window.siteStarter.getFiles( files, true );
+
+
 }() );
