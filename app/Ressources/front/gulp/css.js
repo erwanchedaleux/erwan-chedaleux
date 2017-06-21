@@ -14,6 +14,7 @@ module.exports = function( gulp, pkg, config ) {
                     config.path.resources.css + 'fonts.styl',
                     config.path.resources.css + 'styles.styl',
                     config.path.resources.css + '_base64/images.styl',
+                    config.path.resources.css + 'font-awesome.styl'
                 ] )
                 .pipe( stylus( {
                     "compress" :                                        false,

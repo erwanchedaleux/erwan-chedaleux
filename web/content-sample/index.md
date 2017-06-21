@@ -30,38 +30,33 @@ social:
     <div class="sch-content">
         <h1 class="sch-title-1">Je suis Erwan Chedaleux.</h1>
         <p class="sch-text">
-            Je suis passionné par les <span class="highlight">nouvelles technologies</span> et je suis avec intérêt toutes les innovations dans le domaine du <span class="highlight">Web</span> et l’univers du mobile. Je suis actuellement à la recherche de <span class="highlight">nouvelles opportunités professionnelles</span>. Pour plus de précisions, je vous invite à <a href="%theme_url%/assets/media/pdf/cv-erwan-chedaleux.pdf" title="CV de Erwan Chedaleux" target="_blank" class="lnk">télécharger mon CV</a>.
+            Passionné depuis le plus jeune âge par les <span class="highlight">nouvelles technologies</span>, je suis avec intérêt toutes les innovations dans le domaine du <span class="highlight">Web</span>. A ce jour, je suis également à la recherche de nouvelles <span class="highlight">opportunités professionnelles</span>. Pour plus de précisions, je vous invite à <a href="%theme_url%/assets/media/pdf/cv-erwan-chedaleux.pdf" title="CV de Erwan Chedaleux" target="_blank" class="lnk">télécharger mon CV</a>.
         </p>
         <div class="sch-social-networks">
             <ul class="sch-list">
                 <li class="sch-itm">
-                    <a href="https://twitter.com/erwanchedaleux" title="Suivez-moi sur Twitter" target="_blank" class="sch-lnk">
-                        Suivez-moi sur Twitter
-                        <span class="icon-twitter"></span>
+                    <a href="https://twitter.com/erwanchedaleux" title="Suivez-moi sur Twitter" target="_blank" class="sch-lnk sch-lnk-twitter">
+                        <i class="fa fa-twitter"></i>
                     </a>
                 </li>
                 <li class="sch-itm">
                     <a href="https://plus.google.com/+ErwanChedaleux" title="Suivez-moi sur Google+" target="_blank" class="sch-lnk">
-                        Suivez-moi sur Google+
-                        <span class="icon-google-plus"></span>
+                        <i class="fa fa-google-plus"></i>
                     </a>
                 </li>
                 <li class="sch-itm">
                     <a href="https://www.linkedin.com/in/erwan-chedaleux-085a8324/" title="Suivez-moi sur LinkedIn" target="_blank" class="sch-lnk">
-                        Suivez-moi sur LinkedIn
-                        <span class="icon-linkedin"></span>
+                        <i class="fa fa-linkedin"></i>
                     </a>
                 </li>
                 <li class="sch-itm">
                     <a href="skype:waner35?call" title="Suivez-moi sur Skype" class="sch-lnk">
-                        Contactez-moi via Skype
-                        <span class="icon-skype"></span>
+                        <i class="fa fa-skype"></i>
                     </a>
                 </li>
                 <li class="sch-itm">
                     <a href="http://www.viadeo.com/p/00224mlxk65h0549" title="Suivez-moi sur Viadeo" target="_blank" class="sch-lnk">
-                        Suivez-moi sur Viadeo
-                        <span class="icon-viadeo"></span>
+                        <i class="fa fa-viadeo"></i>
                     </a>
                 </li>
             </ul>
