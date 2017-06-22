@@ -1,0 +1,89 @@
+/***************************************/
+
+.sc-references
+    position                            relative
+    width                               100%
+    height                              100%
+    overflow                            hidden
+    background-color                    $color3
+
+.scr-title-1
+    margin-top                          60px
+    margin-bottom                       15px
+    font-size                           3.5rem
+    text-transform                      uppercase
+    text-align                          center
+    color                               $color2
+    font-l()
+
+.scr-content
+    height                              100%
+    padding-bottom                      110px
+
+.scr-shuffle
+    width                               100%
+    clearfix()
+
+.scr-itm
+    position                            relative
+    float                               left
+    width                               23.5%
+    margin                              10px 1% 40px 1%
+    padding                             0
+    box-sizing                          border-box
+    box-shadow                          0 3px 10px 0 rgba( $color1, 0.3 )
+    background-color                    $color2
+    transition2()
+
+    &:nth-child(4n+1)
+        margin-left                     0
+
+    &:nth-child(4n)
+        margin-right                    0
+
+    &:hover
+        transform                       translateY( -3px )
+        box-shadow                      0 6px 20px 0 rgba( $color1, 0.5 )
+
+.scr-lnk
+    display                             block
+
+.scr-background
+    display                             block
+    width                               100%
+    overflow                            hidden
+
+.scr-img
+    display                             block
+    width                               100%
+
+.scr-caption
+    position                            absolute
+    display                             block
+    margin-top                          10px
+    width                               100%
+    text-align                          center
+    color                               $color2
+    font-size                           12px
+    font-l()
+
+.scr-arrow
+    position                            absolute
+    z-index                             2
+    bottom                              50px
+    left                                50%
+    width                               40px
+    height                              40px
+    border-radius                       100%
+    background-color                    $color2
+    transform                           translateX( -50% )
+    cursor                              pointer
+
+    .fa-angle-down
+        position                        absolute
+        top                             50%
+        left                            50%
+        margin-top                      1px
+        color                           $color3
+        font-size                       2.5rem
+        transform                       translate( -50%, -50% )

@@ -106,16 +106,27 @@ body,
   width: 100%;
   height: 100%;
 }
+.sch-background:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 200px solid #fff;
+  border-left: 100vw solid transparent;
+}
 .sch-background:after {
   content: "";
   display: block;
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 0;
-  height: 0;
-  border-bottom: 200px solid #fff;
-  border-left: 100vw solid transparent;
+  width: 100vw;
+  height: 50px;
+  background-color: #fff;
 }
 .schb-img {
   position: absolute;
@@ -140,14 +151,14 @@ body,
 .sch-title-1 {
   display: block;
   margin-bottom: 45px;
-  font-size: 55px;
+  font-size: 5.5rem;
   color: #fff;
   text-align: center;
   font-weight: 800;
 }
 .sch-text {
   display: block;
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #fff;
   text-align: center;
   line-height: 22px;
@@ -159,7 +170,7 @@ body,
 .sch-text .lnk {
   position: relative;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #fff;
   font-weight: 600;
   transition: all 0.25s ease;
@@ -204,6 +215,26 @@ body,
 .sch-lnk:hover {
   color: #f59434;
 }
-.sch-lnk-twitter {
-  display: block;
+.sch-arrow {
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #1f7c9a;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  cursor: pointer;
+}
+.sch-arrow .fa-angle-down {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 1px;
+  color: #fff;
+  font-size: 2.5rem;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
