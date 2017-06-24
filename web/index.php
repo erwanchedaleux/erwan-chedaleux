@@ -18,3 +18,41 @@ $pico = new Pico(
 
 // run application
 echo $pico->run();
+
+if (isset($_POST['contact_form_submit']) && !empty($_POST['contact_form_submit'])) {
+
+    $lastname       = $_POST['contact_form_lastname'];
+    $firstname      = $_POST['contact_form_firstname'];
+    $email          = $_POST['contact_form_email'];
+    $message        = $_POST['contact_form_message'];
+
+    if(isset($lastname) && !empty($lastname) &&
+    isset($firstname) && !empty($firstname) &&
+    isset($email) && !empty($email) &&
+    isset($message) && !empty($message)) {
+
+        $mailFrom       = 'contact@erwan-chedaleux.fr';
+        $mailTo         = 'erwan.chedaleux@gmail.com';
+        $swiftTransport = Swift_SmtpTransport::newInstance('SSL0.OVH.NET', 587) ->setUsername('contact@erwan-chedaleux.fr') ->setPassword('XXXXXXX');
+
+
+        // send email
+        $swiftMessage   = Swift_Message::newInstance();
+        $swiftMessage   ->setSubject('Contact depuis mon portfolio')
+                        ->setFrom(array($mailFrom => 'Contact - Site Erwan Chedaleux'))
+                        ->setTo($mailTo)
+                        ->setBody( '<strong>Nom et prénom :</strong> '.$firstname.' '.$lastname.' <br />'. '<strong>E-mail :</strong> '.$email.' <br /><strong>Envoyé le</strong> '.date('d/m/Y', time()).'<br /><br /><strong>Message :</strong><br />'. nl2br($message), 'text/html' ) ;
+        $swiftMailer    = Swift_Mailer::newInstance($swiftTransport);
+        $result         = $swiftMailer->send($swiftMessage);
+
+        unset($_POST);
+
+        if($result){
+            echo "<script>alert('Merci ! Votre message a bien été envoyé.')</script>";
+        }else{
+            echo "<script>alert('Désolé, une erreur s\'est produite, veuillez réessayer ultérieurement.')</script>";
+        }
+
+    }
+
+}

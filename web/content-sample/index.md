@@ -12,7 +12,7 @@ social:
       url: https://www.linkedin.com/in/erwan-chedaleux-085a8324/
       icon: linkedin
     - title: Contactez-moi via Skype
-      url: skype:waner35?call
+      url: skype:live:6203bfd11b66a4b7?call
       icon: skype
     - title: Suivez-moi sur Viadeo
       url: http://www.viadeo.com/p/00224mlxk65h0549
@@ -28,7 +28,7 @@ social:
              alt="Erwan Chedaleux" />
     </div>
     <div class="sch-content">
-        <h1 class="sch-title-1">Je suis Erwan Chedaleux.</h1>
+        <h1 class="sch-title-1">Je suis <span class="highlight">Erwan Chedaleux.</span></h1>
         <p class="sch-text">
             Passionné depuis le plus jeune âge par les <span class="highlight">nouvelles technologies</span>, je suis avec intérêt toutes les innovations dans le domaine du <span class="highlight">Web</span>. A ce jour, je suis également à la recherche de nouvelles <span class="highlight">opportunités professionnelles</span>. Pour plus de précisions, je vous invite à <a href="%theme_url%/assets/media/pdf/cv-erwan-chedaleux.pdf" title="CV de Erwan Chedaleux" target="_blank" class="lnk">télécharger mon CV</a>.
         </p>
@@ -50,7 +50,7 @@ social:
                     </a>
                 </li>
                 <li class="sch-itm">
-                    <a href="skype:waner35?call" title="Suivez-moi sur Skype" class="sch-lnk">
+                    <a href="skype:live:6203bfd11b66a4b7?call" title="Suivez-moi sur Skype" class="sch-lnk">
                         <i class="fa fa-skype"></i>
                     </a>
                 </li>
@@ -98,6 +98,25 @@ social:
     <h2 class="scr-title-1">Références</h2>
     <div class="scr-content">
         <div class="inner">
+            <div class="scr-filters">
+                <ul class="scrf-list">
+                    <li class="scrf-itm">
+                        <button class="btns btn-2 active" data-group="wallpaper">Tout</button>
+                    </li>
+                    <li class="scrf-itm">
+                        <button class="btns btn-2" data-group="cws">Creative Web Solutions</button>
+                    </li>
+                    <li class="scrf-itm">
+                        <button class="btns btn-2" data-group="bourse">Bourse de l'Immobilier</button>
+                    </li>
+                    <li class="scrf-itm">
+                        <button class="btns btn-2" data-group="hysequa">HySeQua</button>
+                    </li>
+                    <li class="scrf-itm">
+                        <button class="btns btn-2" data-group="heurisko">Heurisko</button>
+                    </li>
+                </ul>
+            </div>
             <div class="scr-shuffle">
                 <figure class="scr-itm" data-groups='["all, cws"]' data-title="SEAT - Ventes privées">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
@@ -446,43 +465,53 @@ social:
     <div class="scc-content">
         <div class="inner">
             <div class="scc-infos">
-                <h2 class="scc-title-1">Contactez-moi</h2>
-                <p>
-                    Erwan Chedaleux<br />
-                    8, rue du clos de l’agneau<br />
-                    33290 Ludon-Médoc<br /><br />
-
-                    erwan.chedaleux@gmail.com<br />
-                    06 29 92 80 41
-                </p>
-            </div>
-            <div class="scc-arrows">
-                <div class="scc-arrow-1">
-                    <i class="fa fa-arrow-circle-right"></i>
+                <div class="scc-text">
+                    <h2 class="scc-title-1">Contactez-moi</h2>
+                    <p class="scc-paragraph">
+                        <span class="highlight">Erwan Chedaleux</span><br />
+                        8, rue du clos de l’agneau<br />
+                        33290 Ludon-Médoc<br /><br />
+                        <img src="%theme_url%/assets/media/img/email-ls-263.png"
+                             srcset="%theme_url%/assets/media/img/email-ls-263.png 263w,
+                                     %theme_url%/assets/media/img/email-ls-350.png 350w"
+                             class="scc-email"
+                             alt="" />
+                         <img src="%theme_url%/assets/media/img/phone-ls-131.png"
+                              srcset="%theme_url%/assets/media/img/phone-ls-131.png 131w,
+                                      %theme_url%/assets/media/img/phone-ls-175.png 175w"
+                              class="scc-phone"
+                              alt="" />
+                    </p>
                 </div>
-                <div class="scc-arrow-2">
+                <div class="scc-arrow-1">
                     <i class="fa fa-arrow-circle-right"></i>
                 </div>
             </div>
             <div class="scc-form">
-                <form class="forms contact-form" action="#" method="post">
-                    <div class="fields fields-text">
+                <form class="forms contact-form" role="form" method="post">
+                    <div class="fields field-text">
                         <label class="labels labels-placeholder" for="contact_form_lastname">Nom</label>
-                        <input type="text" id="contact_form_lastname" name="contact_form_lastname" value="" required>
+                        <input type="text" id="contact_form_lastname" name="contact_form_lastname" value="" class="inputs input-text" required>
                     </div>
-                    <div class="fields fields-text">
+                    <div class="fields field-text">
                         <label class="labels labels-placeholder" for="contact_form_firstname">Prénom</label>
-                        <input type="text" id="contact_form_firstname" name="contact_form_firstname" value="" required>
+                        <input type="text" id="contact_form_firstname" name="contact_form_firstname" value="" class="inputs input-text" required>
                     </div>
-                    <div class="fields fields-text">
+                    <div class="fields field-text">
                         <label class="labels labels-placeholder" for="contact_form_email">Adresse email</label>
-                        <input type="text" id="contact_form_email" name="contact_form_email" value="" required>
+                        <input type="text" id="contact_form_email" name="contact_form_email" value="" class="inputs input-text" required>
                     </div>
-                    <div class="fields fields-text">
+                    <div class="fields field-textarea">
                         <label class="labels labels-placeholder" for="contact_form_message">Message</label>
-                        <input type="text" id="contact_form_message" name="contact_form_message" value="" required>
+                        <textarea id="contact_form_message" name="contact_form_message" class="inputs input-textarea" required></textarea>
+                    </div>
+                    <div class="fields field-submit">
+                        <button type="submit" name="contact_form_submit" value="true" class="btns btn-1">Envoyer</button>
                     </div>
                 </form>
+                <div class="scc-arrow-2">
+                    <i class="fa fa-arrow-circle-right"></i>
+                </div>
             </div>
         </div>
     </div>

@@ -68,7 +68,7 @@
     .lnk
         position                        relative
         display                         inline-block
-        font-size                       16px
+        font-size                       1.6rem
         color                           $color2
         font-sb()
         transition2()
@@ -122,3 +122,50 @@
         color                           $color4
         font-size                       2.5rem
         transform                       translate( -50%, -50% )
+
+
+/* Mediaqueries Mobile (639px) */
+@media all and ( max-width: $smallScreenContentMinWidth )
+
+    .scam-title-1
+        margin-top                      20px
+        margin-bottom                   55px
+        font-size                       2.6rem
+
+    .scam-content
+        &:before
+            top                         100px
+            border-top                  50px solid $color2
+
+    .scam-photo
+        float                           none
+        width                           100px
+        height                          @width
+        margin                          -50px auto 0 auto
+
+    .scam-text
+        position                        relative
+        top                             0
+        left                            @top
+        margin-top                      0
+        padding-right                   0
+        transform                       inherit
+        width                           100%
+
+    .scam-title-2
+        margin-top                      0
+        margin-bottom                   0
+        font-size                       2rem
+
+    .scam-paragraph
+        font-size                       1.1rem
+
+        .lnk
+            font-size                   1.1rem
+
+    .scam-btn
+        bottom                           -70px
+        font-size                        1.2rem
+
+    .scam-arrow
+        display                         none

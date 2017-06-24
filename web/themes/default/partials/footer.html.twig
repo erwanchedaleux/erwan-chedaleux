@@ -2,7 +2,7 @@
     <div class="inner">
         <div class="sf-social-networks">
             {% for social in meta.social %}
-                <a href="{{ social.url }}" title="{{ social.title }}" {% if social.url starts with "skype" %}target="_self"{% else %}target="_blank"{% endif %}>
+                <a href="{{ social.url }}" title="{{ social.title }}" {% if social.url starts with "skype" %}target="_self"{% else %}target="_blank"{% endif %} class="sf-lnk">
                     <i class="fa fa-{{ social.icon }}"></i>
                 </a>
             {% endfor %}
