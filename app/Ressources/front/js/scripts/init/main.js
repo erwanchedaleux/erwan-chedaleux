@@ -1,17 +1,31 @@
-module.exports = ( function () {
+/* global jQuery */
+module.exports = ( function ( $ ) {
 
     function init() {
 
-        var Sample;
+        var NavigationMobile, Fullpage,
+            $navigationMobile, $fullpage;
 
-        Sample                              = require( '../sample.js' );
+        NavigationMobile                        = require( '../navigation-mobile.js' );
+        Fullpage                                = require( '../fullpage.js' );
+
+        $navigationMobile                       = $( '.site-navigation-mobile' );
+        $fullpage                               = $( '.fullpage' );
 
 
-        new Sample();
+        if ( $navigationMobile ) {
+            new NavigationMobile( $navigationMobile );
+
+        }
+
+        if ( $fullpage ) {
+            new Fullpage( $fullpage );
+
+        }
 
     }
 
 
     return init;
 
-} )();
+} )( jQuery );

@@ -140,3 +140,54 @@
     .fa-arrow-circle-right
         font-size                       13rem
         color                           $color5
+
+
+/* Mediaqueries Mobile (639px) */
+@media all and ( max-width: $smallScreenContentMinWidth )
+
+    .sc-contact
+        height                          100%
+
+        &:before
+            border-top                  50px solid $color3
+
+    .scc-content
+        &:before
+            content                         ""
+            display                         block
+            position                        absolute
+            top                             0
+            left                            0
+            width                           100%
+            height                          50%
+            background-color                $color5
+
+    .scc-infos
+        float                               none
+        width                               100%
+
+
+    .scc-title-1
+        margin-bottom                       30px
+        font-size                           2.6rem
+
+    .scc-form
+        float                               none
+        width                               100%
+
+    .contact-form
+        padding-left                        0
+
+    .scc-arrow-1
+    .scc-arrow-2
+        position                            absolute
+        top                                 inherit
+        left                                50%
+        right                               inherit
+        transform                           translateX( -50% ) rotate( 90deg )
+
+    .scc-arrow-1
+        bottom                              -62px
+
+    .scc-arrow-2
+        top                                 -68px

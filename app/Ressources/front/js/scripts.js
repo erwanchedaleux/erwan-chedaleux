@@ -1,3 +1,4 @@
+/* global jQuery, document */
 ( function() {
 
     var mainInit;
@@ -11,7 +12,7 @@
     }
 
 
-    document.addEventListener( 'DOMContentLoaded', function() {
+    jQuery( document ).ready(function() {
         init();
     } );
 

@@ -19,7 +19,7 @@ social:
       icon: viadeo
 ---
 
-<div class="sc-home">
+<div class="sc-home section fp-noscroll active">
     <div class="sch-background">
         <img src="%theme_url%/assets/media/img/home-ls-1280.jpg"
              srcset="%theme_url%/assets/media/img/home-ls-1280.jpg 1280w,
@@ -62,11 +62,11 @@ social:
             </ul>
         </div>
     </div>
-    <div class="sch-arrow">
+    <a href="#about-me" class="sch-arrow">
         <i class="fa fa-angle-down"></i>
-    </div>
+    </a>
 </div>
-<div class="sc-about-me">
+<div class="sc-about-me section fp-noscroll">
     <h2 class="scam-title-1">à propos de moi</h2>
     <div class="scam-content">
         <div class="inner">
@@ -90,11 +90,11 @@ social:
             </div>
         </div>
     </div>
-    <div class="scam-arrow">
+    <a href="#references" class="scam-arrow">
         <i class="fa fa-angle-down"></i>
-    </div>
+    </a>
 </div>
-<div class="sc-references">
+<div class="sc-references section">
     <h2 class="scr-title-1">Références</h2>
     <div class="scr-content">
         <div class="inner">
@@ -457,11 +457,11 @@ social:
             </div>
         </div>
     </div>
-    <div class="scr-arrow">
+    <a href="#about-me" class="scr-arrow">
         <i class="fa fa-angle-down"></i>
-    </div>
+    </a>
 </div>
-<div class="sc-contact">
+<div class="sc-contact section fp-noscroll">
     <div class="scc-content">
         <div class="inner">
             <div class="scc-infos">

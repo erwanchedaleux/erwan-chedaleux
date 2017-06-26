@@ -98,6 +98,9 @@ module.exports = function( gulp, pkg, config ) {
         return gulp
                 .src( [
                     config.path.resources.js + 'vendor/polyfill/polyfill.js',
+                    config.path.resources.js + 'vendor/jquery/jquery.js',
+                    config.path.resources.js + 'vendor/jquery/scrolloverflow.js', 
+                    config.path.resources.js + 'vendor/jquery/jquery.fullpage.js'
                 ] )
                 .pipe( gulpConcat( 'lib.js' ) )
                 .pipe( gulp.dest( config.path.web.js ) );

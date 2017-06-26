@@ -84,7 +84,7 @@
     width                               100%
     text-align                          center
     color                               $color2
-    font-size                           12px
+    font-size                           1.2rem
     font-l()
 
 .scr-arrow
@@ -107,3 +107,26 @@
         color                           $color3
         font-size                       2.5rem
         transform                       translate( -50%, -50% )
+
+
+/* Mediaqueries Mobile (639px) */
+@media all and ( max-width: $smallScreenContentMinWidth )
+
+    .scr-title-1
+        margin-top                      20px
+        margin-bottom                   25px
+        font-size                       2.6rem
+
+    .scr-filters
+        display                         none
+
+    .scr-itm
+        float                           none
+        width                           100%
+        margin                          10px 0 40px 0
+
+    .scr-caption
+        font-size                       1.4rem
+
+    .scr-arrow
+        bottom                          60px

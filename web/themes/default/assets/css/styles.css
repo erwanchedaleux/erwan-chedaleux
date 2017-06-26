@@ -134,6 +134,22 @@ legend {
   background-color: #1f7c9a;
   border-color: #fff;
 }
+.site-mask {
+  display: none;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  transition: all 0.25s ease;
+}
+.site-mask.active {
+  display: block;
+  opacity: 1;
+}
 .site-footer {
   background-color: #212121;
   padding: 45px 0;
@@ -181,7 +197,7 @@ legend {
   content: "";
   display: block;
   position: absolute;
-  top: 113px;
+  top: 57px;
   left: 0;
   width: 0;
   height: 0;
@@ -293,7 +309,7 @@ legend {
     font-size: 2.6rem;
   }
   .scam-content:before {
-    top: 100px;
+    top: 52px;
     border-top: 50px solid #fff;
   }
   .scam-photo {
@@ -326,6 +342,7 @@ legend {
   .scam-btn {
     bottom: -70px;
     font-size: 1.2rem;
+    width: 80%;
   }
   .scam-arrow {
     display: none;
@@ -423,7 +440,7 @@ legend {
   width: 100%;
   text-align: center;
   color: #fff;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 300;
 }
 .scr-arrow {
@@ -448,6 +465,27 @@ legend {
   font-size: 2.5rem;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+@media all and (max-width: 639px) {
+  .scr-title-1 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 2.6rem;
+  }
+  .scr-filters {
+    display: none;
+  }
+  .scr-itm {
+    float: none;
+    width: 100%;
+    margin: 10px 0 40px 0;
+  }
+  .scr-caption {
+    font-size: 1.4rem;
+  }
+  .scr-arrow {
+    bottom: 60px;
+  }
 }
 .sc-contact {
   position: relative;
@@ -592,4 +630,52 @@ legend {
 .scc-arrow-2 .fa-arrow-circle-right {
   font-size: 13rem;
   color: #f59434;
+}
+@media all and (max-width: 639px) {
+  .sc-contact {
+    height: 100%;
+  }
+  .sc-contact:before {
+    border-top: 50px solid #1f7c9a;
+  }
+  .scc-content:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #f59434;
+  }
+  .scc-infos {
+    float: none;
+    width: 100%;
+  }
+  .scc-title-1 {
+    margin-bottom: 30px;
+    font-size: 2.6rem;
+  }
+  .scc-form {
+    float: none;
+    width: 100%;
+  }
+  .contact-form {
+    padding-left: 0;
+  }
+  .scc-arrow-1,
+  .scc-arrow-2 {
+    position: absolute;
+    top: inherit;
+    left: 50%;
+    right: inherit;
+    -webkit-transform: translateX(-50%) rotate(90deg);
+            transform: translateX(-50%) rotate(90deg);
+  }
+  .scc-arrow-1 {
+    bottom: -62px;
+  }
+  .scc-arrow-2 {
+    top: -68px;
+  }
 }
