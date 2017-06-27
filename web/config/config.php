@@ -22,7 +22,7 @@ $config['rewrite_url'] = true;                              // A boolean indicat
  $config['twig_config'] = array(              // Twig settings
      'cache' => false,                        // To enable Twig caching change this to a path to a writable directory
      'autoescape' => false,                   // Auto-escape Twig vars
-     'debug' => true                          // Enable Twig debug
+     'debug' => false                          // Enable Twig debug
  );
 
 /*
@@ -48,3 +48,6 @@ $config['rewrite_url'] = true;                              // A boolean indicat
  * CUSTOM
  */
 // $config['custom_setting'] = 'Hello';         // Can be accessed by {{ config.custom_setting }} in a theme
+$pkg_file                = file_get_contents("./../app/Ressources/front/package.json", FILE_USE_INCLUDE_PATH);
+$pkg_json                = json_decode($pkg_file, true);
+$config['version']       = $pkg_json['version'];
