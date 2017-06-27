@@ -47,11 +47,6 @@ module.exports = function( gulp, pkg, config ) {
                 .pipe( browserify( {
                     "transform": [
                         stringifyOptions
-                        // [ "browserify-replace", {
-                        //     "replace": [
-                        //         { "from": /['"]{{content.innerWidth}}['"]/, "to": projectVars.content.innerWidth }
-                        //     ]
-                        // } ]
                     ],
                     "external":                                             []
                 } ) )
@@ -67,11 +62,6 @@ module.exports = function( gulp, pkg, config ) {
                 .pipe( browserify( {
                     "transform": [
                         stringifyOptions
-                        // [ "browserify-replace", {
-                        //     "replace": [
-                        //         { "from": /['"]{{content.innerWidth}}['"]/, "to": projectVars.content.innerWidth }
-                        //     ]
-                        // } ]
                     ],
                     "external":                                             []
                 } ) )
@@ -99,8 +89,10 @@ module.exports = function( gulp, pkg, config ) {
                 .src( [
                     config.path.resources.js + 'vendor/polyfill/polyfill.js',
                     config.path.resources.js + 'vendor/jquery/jquery.js',
-                    config.path.resources.js + 'vendor/jquery/scrolloverflow.js', 
-                    config.path.resources.js + 'vendor/jquery/jquery.fullpage.js'
+                    config.path.resources.js + 'vendor/jquery/scrolloverflow.js',
+                    config.path.resources.js + 'vendor/jquery/jquery.fullpage.js',
+                    config.path.resources.js + 'vendor/jquery/typed.js',
+                    config.path.resources.js + 'vendor/jquery/jquery.filterizr.js'
                 ] )
                 .pipe( gulpConcat( 'lib.js' ) )
                 .pipe( gulp.dest( config.path.web.js ) );

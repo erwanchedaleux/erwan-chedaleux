@@ -181,12 +181,16 @@ legend {
   overflow: hidden;
 }
 .scam-title-1 {
+  position: relative;
+  z-index: 1;
   margin-top: 60px;
   margin-bottom: 15px;
   font-size: 3.5rem;
   text-transform: uppercase;
   text-align: center;
   color: #1f7c9a;
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
   font-weight: 300;
 }
 .scam-content {
@@ -304,9 +308,14 @@ legend {
 }
 @media all and (max-width: 639px) {
   .scam-title-1 {
-    margin-top: 20px;
-    margin-bottom: 55px;
+    margin-top: 30px;
+    margin-bottom: 45px;
     font-size: 2.6rem;
+    -webkit-transform: translateY(32px);
+            transform: translateY(32px);
+  }
+  .scam-content {
+    padding-top: 30px;
   }
   .scam-content:before {
     top: 52px;
@@ -368,7 +377,7 @@ legend {
   height: 100%;
   padding-bottom: 110px;
 }
-.scr-filters {
+.scr-filtr-filters {
   width: 100%;
   margin-bottom: 40px;
 }
@@ -388,41 +397,35 @@ legend {
   cursor: pointer;
   font-weight: 300;
 }
-.scr-shuffle {
+.scr-filtr-container {
   width: 100%;
 }
-.scr-shuffle:before,
-.scr-shuffle:after {
+.scr-filtr-container:before,
+.scr-filtr-container:after {
   content: "";
   display: table;
 }
-.scr-shuffle:after {
+.scr-filtr-container:after {
   clear: both;
 }
 .scr-itm {
   position: relative;
   float: left;
   width: 23.5%;
-  margin: 10px 1% 40px 1%;
-  padding: 0;
-  box-sizing: border-box;
-  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.3);
-  background-color: #fff;
-  transition: all 0.25s ease;
+  padding: 10px 1% 40px 1%;
 }
-.scr-itm:nth-child(4n+1) {
-  margin-left: 0;
-}
-.scr-itm:nth-child(4n) {
-  margin-right: 0;
-}
-.scr-itm:hover {
+.scr-itm:hover .scr-lnk {
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
   box-shadow: 0 6px 20px 0 rgba(0,0,0,0.5);
 }
 .scr-lnk {
+  position: relative;
   display: block;
+  box-sizing: border-box;
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.3);
+  background-color: #fff;
+  transition: all 0.25s ease;
 }
 .scr-background {
   display: block;
@@ -437,7 +440,7 @@ legend {
   position: absolute;
   display: block;
   margin-top: 10px;
-  width: 100%;
+  width: 92%;
   text-align: center;
   color: #fff;
   font-size: 1.2rem;
@@ -466,13 +469,16 @@ legend {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+.fp-scroller {
+  min-height: 100%;
+}
 @media all and (max-width: 639px) {
   .scr-title-1 {
     margin-top: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 0;
     font-size: 2.6rem;
   }
-  .scr-filters {
+  .scr-filtr-filters {
     display: none;
   }
   .scr-itm {
@@ -671,6 +677,10 @@ legend {
     right: inherit;
     -webkit-transform: translateX(-50%) rotate(90deg);
             transform: translateX(-50%) rotate(90deg);
+  }
+  .scc-arrow-1 .fa-arrow-circle-right,
+  .scc-arrow-2 .fa-arrow-circle-right {
+    font-size: 12.8rem;
   }
   .scc-arrow-1 {
     bottom: -62px;

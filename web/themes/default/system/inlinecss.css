@@ -102,7 +102,7 @@ ul {
   .site-navigation-mobile {
     display: block;
     width: 35px;
-    height: 25px;
+    height: 18px;
     position: absolute;
     top: 0;
     left: 110%;
@@ -150,6 +150,9 @@ ul {
     top: 8px;
     -webkit-transform: rotate(-135deg);
             transform: rotate(-135deg);
+  }
+  #fp-nav {
+    display: none;
   }
 }
 html,
@@ -241,9 +244,10 @@ body,
 .sch-title-1 {
   display: block;
   margin-bottom: 45px;
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   color: #fff;
   text-align: center;
+  opacity: 0;
   font-weight: 800;
 }
 .sch-text {
@@ -328,9 +332,20 @@ body,
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+          animation: blink 0.7s infinite;
+}
+.typed-fade-out {
+  opacity: 0;
+  -webkit-animation: 0;
+          animation: 0;
+  transition: opacity 0.25s;
+}
 @media all and (max-width: 639px) {
   .sch-content {
-    width: 80%;
+    width: 83%;
     margin-top: -50px;
   }
   .sch-title-1 {
@@ -356,5 +371,27 @@ body,
   }
   .sch-arrow {
     bottom: 20px;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

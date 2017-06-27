@@ -4,7 +4,7 @@ module.exports = ( function ( $ ) {
     function NavigationMobile( $navigationMobile ) {
 
         var NAV_OPENED_CLASS, NO_SCROLL_CLASS, ACTIVE_CLASS,
-            $body, $mask;
+            $body, $mask, $siteNavigation;
 
         NAV_OPENED_CLASS                    = 'navigation-mobile-opened';
         NO_SCROLL_CLASS                     = "no-scroll";
@@ -12,6 +12,7 @@ module.exports = ( function ( $ ) {
 
         $body                               = $( 'body' );
         $mask                               = $( '.site-mask' );
+        $siteNavigation                     = $( '.site-navigation' );
 
 
         /**
@@ -25,10 +26,35 @@ module.exports = ( function ( $ ) {
 
             }
 
+            if ( $body.hasClass( NAV_OPENED_CLASS ) ) {
+                $.fn.fullpage.setAllowScrolling( false );
+            } else {
+                $.fn.fullpage.setAllowScrolling( true );
+            }
+
+        }
+
+        /**
+         * Allows to remove mobile navigation aspect if window is more than 639px
+         * Or if user click on item menu
+         * @param  {event} e - event
+         * @return {void}
+         */
+        function removeMobileNavigation( e ) {
+            if ( e.type === 'resize' && window.matchMedia('(max-width: 639px)').matches ) {
+                return;
+            }
+
+            $body.removeClass( NAV_OPENED_CLASS ).removeClass( NO_SCROLL_CLASS );
+            $mask.removeClass( ACTIVE_CLASS );
+            $.fn.fullpage.setAllowScrolling( true );
+
         }
 
 
         $navigationMobile.on( 'click', toggleMobileNavigation );
+        $siteNavigation.on( 'click', '.sn-lnk', removeMobileNavigation );
+        $( window ).on( 'resize', removeMobileNavigation );
 
     }
 

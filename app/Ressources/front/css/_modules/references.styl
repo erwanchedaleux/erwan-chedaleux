@@ -20,7 +20,7 @@
     height                              100%
     padding-bottom                      110px
 
-.scr-filters
+.scr-filtr-filters
     width                               100%
     margin-bottom                       40px
 
@@ -40,7 +40,7 @@
         cursor                          pointer
         font-l()
 
-.scr-shuffle
+.scr-filtr-container
     width                               100%
     clearfix()
 
@@ -48,25 +48,20 @@
     position                            relative
     float                               left
     width                               23.5%
-    margin                              10px 1% 40px 1%
-    padding                             0
+    padding                             10px 1% 40px 1%
+
+    &:hover
+        .scr-lnk
+            transform                   translateY( -3px )
+            box-shadow                  0 6px 20px 0 rgba( $color1, 0.5 )
+
+.scr-lnk
+    position                            relative
+    display                             block
     box-sizing                          border-box
     box-shadow                          0 3px 10px 0 rgba( $color1, 0.3 )
     background-color                    $color2
     transition2()
-
-    &:nth-child(4n+1)
-        margin-left                     0
-
-    &:nth-child(4n)
-        margin-right                    0
-
-    &:hover
-        transform                       translateY( -3px )
-        box-shadow                      0 6px 20px 0 rgba( $color1, 0.5 )
-
-.scr-lnk
-    display                             block
 
 .scr-background
     display                             block
@@ -81,7 +76,7 @@
     position                            absolute
     display                             block
     margin-top                          10px
-    width                               100%
+    width                               92%
     text-align                          center
     color                               $color2
     font-size                           1.2rem
@@ -108,16 +103,19 @@
         font-size                       2.5rem
         transform                       translate( -50%, -50% )
 
+.fp-scroller
+    min-height                          100%
+
 
 /* Mediaqueries Mobile (639px) */
 @media all and ( max-width: $smallScreenContentMinWidth )
 
     .scr-title-1
         margin-top                      20px
-        margin-bottom                   25px
+        margin-bottom                   0
         font-size                       2.6rem
 
-    .scr-filters
+    .scr-filtr-filters
         display                         none
 
     .scr-itm

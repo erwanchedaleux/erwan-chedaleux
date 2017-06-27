@@ -28,7 +28,7 @@ social:
              alt="Erwan Chedaleux" />
     </div>
     <div class="sch-content">
-        <h1 class="sch-title-1">Je suis <span class="highlight">Erwan Chedaleux.</span></h1>
+        <h1 class="sch-title-1">Je suis <span class="highlight"><span id="sch-typed"></span></span></h1>
         <p class="sch-text">
             Passionné depuis le plus jeune âge par les <span class="highlight">nouvelles technologies</span>, je suis avec intérêt toutes les innovations dans le domaine du <span class="highlight">Web</span>. A ce jour, je suis également à la recherche de nouvelles <span class="highlight">opportunités professionnelles</span>. Pour plus de précisions, je vous invite à <a href="%theme_url%/assets/media/pdf/cv-erwan-chedaleux.pdf" title="CV de Erwan Chedaleux" target="_blank" class="lnk">télécharger mon CV</a>.
         </p>
@@ -98,27 +98,27 @@ social:
     <h2 class="scr-title-1">Références</h2>
     <div class="scr-content">
         <div class="inner">
-            <div class="scr-filters">
+            <div class="scr-filtr-filters">
                 <ul class="scrf-list">
-                    <li class="scrf-itm">
-                        <button class="btns btn-2 active" data-group="wallpaper">Tout</button>
+                    <li class="scrf-itm" data-filter="all">
+                        <button class="btns btn-2 active">Tout</button>
                     </li>
-                    <li class="scrf-itm">
-                        <button class="btns btn-2" data-group="cws">Creative Web Solutions</button>
+                    <li class="scrf-itm" data-filter="1">
+                        <button class="btns btn-2">Creative Web Solutions</button>
                     </li>
-                    <li class="scrf-itm">
-                        <button class="btns btn-2" data-group="bourse">Bourse de l'Immobilier</button>
+                    <li class="scrf-itm" data-filter="2">
+                        <button class="btns btn-2">Bourse de l'Immobilier</button>
                     </li>
-                    <li class="scrf-itm">
-                        <button class="btns btn-2" data-group="hysequa">HySeQua</button>
+                    <li class="scrf-itm" data-filter="3">
+                        <button class="btns btn-2">HySeQua</button>
                     </li>
-                    <li class="scrf-itm">
-                        <button class="btns btn-2" data-group="heurisko">Heurisko</button>
+                    <li class="scrf-itm" data-filter="4">
+                        <button class="btns btn-2">Heurisko</button>
                     </li>
                 </ul>
             </div>
-            <div class="scr-shuffle">
-                <figure class="scr-itm" data-groups='["all, cws"]' data-title="SEAT - Ventes privées">
+            <div class="scr-filtr-container filtr-container">
+                <div class="scr-itm filtr-item" data-category="1" data-title="SEAT - Ventes privées">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-seat-ls-216.jpg"
@@ -127,10 +127,10 @@ social:
                                  class="scr-img"
                                  alt="SEAT - Ventes privées" />
                         </div>
-                        <figcaption class="scr-caption">SEAT - Ventes privées</figcaption>
+                        <div class="scr-caption">SEAT - Ventes privées</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, cws"]' data-title="Volkswagen - Covoiturage">
+                </div>
+                <div class="scr-itm filtr-item" data-category="1" data-title="Volkswagen - Covoiturage">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-volkswagen-ls-216.jpg"
@@ -139,10 +139,10 @@ social:
                                  class="scr-img"
                                  alt="Volkswagen - Covoiturage" />
                         </div>
-                        <figcaption class="scr-caption">Volkswagen - Covoiturage</figcaption>
+                        <div class="scr-caption">Volkswagen - Covoiturage</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, cws"]' data-title="Volkswagen - Grage Sound">
+                </div>
+                <div class="scr-itm filtr-item" data-category="1" data-title="Volkswagen - Grage Sound">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-garagesound-ls-216.jpg"
@@ -151,10 +151,10 @@ social:
                                  class="scr-img"
                                  alt="Volkswagen - Grage Sound" />
                         </div>
-                        <figcaption class="scr-caption">Volkswagen - Grage Sound</figcaption>
+                        <div class="scr-caption">Volkswagen - Grage Sound</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, cws"]' data-title="PediaConsult">
+                </div>
+                <div class="scr-itm filtr-item" data-category="1" data-title="PediaConsult">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-pediaconsult-ls-216.jpg"
@@ -163,10 +163,10 @@ social:
                                  class="scr-img"
                                  alt="PediaConsult" />
                         </div>
-                        <figcaption class="scr-caption">PediaConsult</figcaption>
+                        <div class="scr-caption">PediaConsult</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, cws"]' data-title="Insep - InsepTV">
+                </div>
+                <div class="scr-itm filtr-item" data-category="1" data-title="Insep - InsepTV">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-inseptv-ls-216.jpg"
@@ -175,10 +175,10 @@ social:
                                  class="scr-img"
                                  alt="Insep - InsepTV" />
                         </div>
-                        <figcaption class="scr-caption">Insep - InsepTV</figcaption>
+                        <div class="scr-caption">Insep - InsepTV</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, cws"]' data-title="Biocoop - Fruits et légumes">
+                </div>
+                <div class="scr-itm filtr-item" data-category="1" data-title="Biocoop - Fruits et légumes">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-biocoop-ls-216.jpg"
@@ -187,10 +187,10 @@ social:
                                  class="scr-img"
                                  alt="Biocoop - Fruits et légumes" />
                         </div>
-                        <figcaption class="scr-caption">Biocoop - Fruits et légumes</figcaption>
+                        <div class="scr-caption">Biocoop - Fruits et légumes</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, cws"]' data-title="Finagaz - Landing page">
+                </div>
+                <div class="scr-itm filtr-item" data-category="1" data-title="Finagaz - Landing page">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-finagaz-ls-216.jpg"
@@ -199,10 +199,10 @@ social:
                                  class="scr-img"
                                  alt="Finagaz - Landing page" />
                         </div>
-                        <figcaption class="scr-caption">Finagaz - Landing page</figcaption>
+                        <div class="scr-caption">Finagaz - Landing page</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, cws"]' data-title="Ipsos - Emails transactionnels">
+                </div>
+                <div class="scr-itm filtr-item" data-category="1" data-title="Ipsos - Emails transactionnels">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-ipsos-ls-216.jpg"
@@ -211,10 +211,10 @@ social:
                                  class="scr-img"
                                  alt="Ipsos - Emails transactionnels" />
                         </div>
-                        <figcaption class="scr-caption">Ipsos - Emails transactionnels</figcaption>
+                        <div class="scr-caption">Ipsos - Emails transactionnels</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, cws"]' data-title="René Furterer - Refonte">
+                </div>
+                <div class="scr-itm filtr-item" data-category="1" data-title="René Furterer - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-renefurterer-ls-216.jpg"
@@ -223,10 +223,10 @@ social:
                                  class="scr-img"
                                  alt="René Furterer - Refonte" />
                         </div>
-                        <figcaption class="scr-caption">René Furterer - Refonte</figcaption>
+                        <div class="scr-caption">René Furterer - Refonte</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, cws"]' data-title="Showroom Privé - Jeu concours">
+                </div>
+                <div class="scr-itm filtr-item" data-category="1" data-title="Showroom Privé - Jeu concours">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-showroomprive-ls-216.jpg"
@@ -235,10 +235,10 @@ social:
                                  class="scr-img"
                                  alt="Showroom Privé - Jeu concours" />
                         </div>
-                        <figcaption class="scr-caption">Showroom Privé - Jeu concours</figcaption>
+                        <div class="scr-caption">Showroom Privé - Jeu concours</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, cws"]' data-title="SEB - Easy PLV Shop">
+                </div>
+                <div class="scr-itm filtr-item" data-category="1" data-title="SEB - Easy PLV Shop">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-seb-ls-216.jpg"
@@ -247,10 +247,10 @@ social:
                                  class="scr-img"
                                  alt="SEB - Easy PLV Shop" />
                         </div>
-                        <figcaption class="scr-caption">SEB - Easy PLV Shop</figcaption>
+                        <div class="scr-caption">SEB - Easy PLV Shop</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, bourse"]' data-title="Bourse de l'immobilier - Refonte">
+                </div>
+                <div class="scr-itm filtr-item" data-category="2" data-title="Bourse de l'immobilier - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg"
@@ -259,10 +259,10 @@ social:
                                  class="scr-img"
                                  alt="Bourse de l'immobilier - Refonte" />
                         </div>
-                        <figcaption class="scr-caption">Bourse de l'immobilier - Refonte</figcaption>
+                        <div class="scr-caption">Bourse de l'immobilier - Refonte</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, bourse"]' data-title="Immobilier recrutement - Refonte">
+                </div>
+                <div class="scr-itm filtr-item" data-category="2" data-title="Immobilier recrutement - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg"
@@ -271,10 +271,10 @@ social:
                                  class="scr-img"
                                  alt="Immobilier recrutement - Refonte" />
                         </div>
-                        <figcaption class="scr-caption">Immobilier recrutement - Refonte</figcaption>
+                        <div class="scr-caption">Immobilier recrutement - Refonte</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, bourse"]' data-title="Integral Immobilier - Refonte">
+                </div>
+                <div class="scr-itm filtr-item" data-category="2" data-title="Integral Immobilier - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-integralimmobilier-ls-216.jpg"
@@ -283,10 +283,10 @@ social:
                                  class="scr-img"
                                  alt="Integral Immobilier - Refonte" />
                         </div>
-                        <figcaption class="scr-caption">Integral Immobilier - Refonte</figcaption>
+                        <div class="scr-caption">Integral Immobilier - Refonte</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, bourse"]' data-title="Bourse de l'Immobilier Neuf">
+                </div>
+                <div class="scr-itm filtr-item" data-category="2" data-title="Bourse de l'Immobilier Neuf">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-bourseimmobilierneuf-ls-216.jpg"
@@ -295,10 +295,10 @@ social:
                                  class="scr-img"
                                  alt="Bourse de l'Immobilier Neuf" />
                         </div>
-                        <figcaption class="scr-caption">Bourse de l'Immobilier Neuf</figcaption>
+                        <div class="scr-caption">Bourse de l'Immobilier Neuf</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, hysequa"]' data-title="HySeQua - Refonte">
+                </div>
+                <div class="scr-itm filtr-item" data-category="3" data-title="HySeQua - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-hysequa-ls-216.jpg"
@@ -307,10 +307,10 @@ social:
                                  class="scr-img"
                                  alt="HySeQua - Refonte" />
                         </div>
-                        <figcaption class="scr-caption">HySeQua - Refonte</figcaption>
+                        <div class="scr-caption">HySeQua - Refonte</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, hysequa"]' data-title="Formation HACCP - Refonte">
+                </div>
+                <div class="scr-itm filtr-item" data-category="3" data-title="Formation HACCP - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-formationhaccp-ls-216.jpg"
@@ -319,10 +319,10 @@ social:
                                  class="scr-img"
                                  alt="Formation HACCP - Refonte" />
                         </div>
-                        <figcaption class="scr-caption">Formation HACCP - Refonte</figcaption>
+                        <div class="scr-caption">Formation HACCP - Refonte</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, hysequa"]' data-title="Formation Microbiologie - Refonte">
+                </div>
+                <div class="scr-itm filtr-item" data-category="3" data-title="Formation Microbiologie - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-formationmicrobiologie-ls-216.jpg"
@@ -331,10 +331,10 @@ social:
                                  class="scr-img"
                                  alt="Formation Microbiologie - Refonte" />
                         </div>
-                        <figcaption class="scr-caption">Formation Microbiologie - Refonte</figcaption>
+                        <div class="scr-caption">Formation Microbiologie - Refonte</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, hysequa"]' data-title="HACCP Vin - Création">
+                </div>
+                <div class="scr-itm filtr-item" data-category="3" data-title="HACCP Vin - Création">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-haccpvin-ls-216.jpg"
@@ -343,10 +343,10 @@ social:
                                  class="scr-img"
                                  alt="HACCP Vin - Création" />
                         </div>
-                        <figcaption class="scr-caption">HACCP Vin - Création</figcaption>
+                        <div class="scr-caption">HACCP Vin - Création</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, hysequa"]' data-title="HACCP Crèche - Création">
+                </div>
+                <div class="scr-itm filtr-item" data-category="3" data-title="HACCP Crèche - Création">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-haccpcreche-ls-216.jpg"
@@ -355,10 +355,10 @@ social:
                                  class="scr-img"
                                  alt="HACCP Crèche - Création" />
                         </div>
-                        <figcaption class="scr-caption">HACCP Crèche - Création</figcaption>
+                        <div class="scr-caption">HACCP Crèche - Création</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, hysequa"]' data-title="Formation Hygiène Obligatoire - Refonte">
+                </div>
+                <div class="scr-itm filtr-item" data-category="3" data-title="Formation Hygiène Obligatoire - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-formationhygieneobligatoire-ls-216.jpg"
@@ -367,10 +367,10 @@ social:
                                  class="scr-img"
                                  alt="Formation Hygiène Obligatoire - Refonte" />
                         </div>
-                        <figcaption class="scr-caption">Formation Hygiène Obligatoire - Refonte</figcaption>
+                        <div class="scr-caption">Formation Hygiène Obligatoire - Refonte</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, hysequa"]' data-title="Laboratoire Alimentaire - Création">
+                </div>
+                <div class="scr-itm filtr-item" data-category="3" data-title="Laboratoire Alimentaire - Création">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-laboratoirealimentaire-ls-216.jpg"
@@ -379,10 +379,10 @@ social:
                                  class="scr-img"
                                  alt="Laboratoire Alimentaire - Création" />
                         </div>
-                        <figcaption class="scr-caption">Laboratoire Alimentaire - Création</figcaption>
+                        <div class="scr-caption">Laboratoire Alimentaire - Création</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, hysequa"]' data-title="QualityBoox - Refonte">
+                </div>
+                <div class="scr-itm filtr-item" data-category="3" data-title="QualityBoox - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-qualityboox-ls-216.jpg"
@@ -391,10 +391,10 @@ social:
                                  class="scr-img"
                                  alt="QualityBoox - Refonte" />
                         </div>
-                        <figcaption class="scr-caption">QualityBoox - Refonte</figcaption>
+                        <div class="scr-caption">QualityBoox - Refonte</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, heurisko"]' data-title="Architectes Bordeaux - Création de modules">
+                </div>
+                <div class="scr-itm filtr-item" data-category="4" data-title="Architectes Bordeaux - Création de modules">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-architectesbordeaux-ls-216.jpg"
@@ -403,10 +403,10 @@ social:
                                  class="scr-img"
                                  alt="Architectes Bordeaux - Création de modules" />
                         </div>
-                        <figcaption class="scr-caption">Architectes Bordeaux - Création de modules</figcaption>
+                        <div class="scr-caption">Architectes Bordeaux - Création de modules</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, heurisko"]' data-title="Doudou & Compagnie - Refonte">
+                </div>
+                <div class="scr-itm filtr-item" data-category="4" data-title="Doudou & Compagnie - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-doudouetcompagnie-ls-216.jpg"
@@ -415,10 +415,10 @@ social:
                                  class="scr-img"
                                  alt="Doudou & Compagnie - Refonte" />
                         </div>
-                        <figcaption class="scr-caption">Doudou & Compagnie - Refonte</figcaption>
+                        <div class="scr-caption">Doudou & Compagnie - Refonte</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all, heurisko"]' data-title="Lestrille - Création de modules">
+                </div>
+                <div class="scr-itm filtr-item" data-category="4" data-title="Lestrille - Création de modules">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-lestrille-ls-216.jpg"
@@ -427,10 +427,10 @@ social:
                                  class="scr-img"
                                  alt="Lestrille - Création de modules" />
                         </div>
-                        <figcaption class="scr-caption">Lestrille - Création de modules</figcaption>
+                        <div class="scr-caption">Lestrille - Création de modules</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all"]' data-title="Formhydable - Création">
+                </div>
+                <div class="scr-itm filtr-item" data-category="5" data-title="Formhydable - Création">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-formhydable-ls-216.jpg"
@@ -439,10 +439,10 @@ social:
                                  class="scr-img"
                                  alt="Formhydable - Création" />
                         </div>
-                        <figcaption class="scr-caption">Formhydable - Création</figcaption>
+                        <div class="scr-caption">Formhydable - Création</div>
                     </a>
-                </figure>
-                <figure class="scr-itm" data-groups='["all"]' data-title="Mélissa Aubert Sophrologie - Création">
+                </div>
+                <div class="scr-itm filtr-item" data-category="5" data-title="Mélissa Aubert Sophrologie - Création">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-melissaaubertsophrologie-ls-216.jpg"
@@ -451,13 +451,13 @@ social:
                                  class="scr-img"
                                  alt="Mélissa Aubert Sophrologie - Création" />
                         </div>
-                        <figcaption class="scr-caption">Mélissa Aubert Sophrologie - Création</figcaption>
+                        <div class="scr-caption">Mélissa Aubert Sophrologie - Création</div>
                     </a>
-                </figure>
+                </div>
             </div>
         </div>
     </div>
-    <a href="#about-me" class="scr-arrow">
+    <a href="#contact" class="scr-arrow">
         <i class="fa fa-angle-down"></i>
     </a>
 </div>

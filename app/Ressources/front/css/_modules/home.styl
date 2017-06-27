@@ -57,9 +57,10 @@
 .sch-title-1
     display                             block
     margin-bottom                       45px
-    font-size                           5.5rem
+    font-size                           4.5rem
     color                               $color2
     text-align                          center
+    opacity                             0
     font-eb()
 
 .sch-text
@@ -141,12 +142,33 @@
         font-size                       2.5rem
         transform                       translate( -50%, -50% )
 
+.typed-cursor
+	opacity                             1
+	animation                           blink 0.7s infinite
+
+.typed-fade-out
+    opacity                             0
+    animation                           0
+    transition                          opacity .25s
+
+@keyframes blink {
+    0% {
+        opacity                         1
+    }
+	50% {
+        opacity                         0
+    }
+	100% {
+        opacity                         1
+    }
+}
+
 
 /* Mediaqueries Mobile (639px) */
 @media all and ( max-width: $smallScreenContentMinWidth )
 
     .sch-content
-        width                           80%
+        width                           83%
         margin-top                      -50px
 
     .sch-title-1
