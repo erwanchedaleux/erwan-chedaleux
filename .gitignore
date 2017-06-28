@@ -29,7 +29,6 @@ $RECYCLE.BIN/
 *.sublime-project
 
 # Front
-www
 node_modules
 htmllint-report.xml
 todo.md
@@ -37,7 +36,7 @@ todo.md
 npm-debug.log
 yarn-error.log
 yarn.lock
-app/Resources/tmp-images-optimization
+app/Ressources/front/img/img_not_optimized
 *.js.map
 *.js.twig.map
 
