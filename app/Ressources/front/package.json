@@ -2,7 +2,7 @@
     "name":                             "erwan-chedaleux",
     "title":                            "Erwan Chedaleux",
     "description":                      "Portfolio",
-    "version":                          "1.0.1",
+    "version":                          "1.0.3",
     "homepage":                         "http://www.erwan-chedaleux.fr/",
     "author": {
         "name":                         "Erwan Chedaleux",
@@ -66,6 +66,9 @@
         "gulp-postcss":                 "6.4.0",
         "autoprefixer":                 "6.7.7",
         "gulp-cssmin":                  "0.1.7",
+
+        "gulp-imagemin":                "3.3.0",
+        "imagemin-jpeg-recompress":     "5.1.0",
 
         "jquery":                       "3.2.1",
         "fullpage.js":                  "2.9.4",

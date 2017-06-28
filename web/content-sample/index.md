@@ -21,9 +21,9 @@ social:
 
 <div class="sc-home section fp-noscroll active">
     <div class="sch-background">
-        <img src="%theme_url%/assets/media/img/home-ls-1280.jpg"
-             srcset="%theme_url%/assets/media/img/home-ls-1280.jpg 1280w,
-                     %theme_url%/assets/media/img/home-ls-1920.jpg 1920w"
+        <img src="%theme_url%/assets/media/img/home-ls-1280.jpg?v=%version%"
+             srcset="%theme_url%/assets/media/img/home-ls-1280.jpg?v=%version% 1280w,
+                     %theme_url%/assets/media/img/home-ls-1920.jpg?v=%version% 1920w"
              class="schb-img"
              alt="Erwan Chedaleux" />
     </div>
@@ -71,9 +71,9 @@ social:
     <div class="scam-content">
         <div class="inner">
             <div class="scam-photo">
-                <img src="%theme_url%/assets/media/img/photo-erwan-chedaleux-ls-200.jpg"
-                     srcset="%theme_url%/assets/media/img/photo-erwan-chedaleux-ls-200.jpg 200w,
-                             %theme_url%/assets/media/img/photo-erwan-chedaleux-ls-300.jpg 300w"
+                <img src="%theme_url%/assets/media/img/photo-erwan-chedaleux-ls-200.jpg?v=%version%"
+                     srcset="%theme_url%/assets/media/img/photo-erwan-chedaleux-ls-200.jpg?v=%version% 200w,
+                             %theme_url%/assets/media/img/photo-erwan-chedaleux-ls-300.jpg?v=%version% 300w"
                      class="scam-img"
                      alt="Erwan Chedaleux" />
             </div>
@@ -121,9 +121,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="1" data-title="SEAT - Ventes privées">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-seat-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-seat-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-seat-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-seat-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-seat-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-seat-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="SEAT - Ventes privées" />
                         </div>
@@ -133,9 +133,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="1" data-title="Volkswagen - Covoiturage">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-volkswagen-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-volkswagen-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-volkswagen-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-volkswagen-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-volkswagen-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-volkswagen-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Volkswagen - Covoiturage" />
                         </div>
@@ -145,9 +145,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="1" data-title="Volkswagen - Grage Sound">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-garagesound-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-garagesound-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-garagesound-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-garagesound-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-garagesound-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-garagesound-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Volkswagen - Grage Sound" />
                         </div>
@@ -157,9 +157,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="1" data-title="PediaConsult">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-pediaconsult-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-pediaconsult-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-pediaconsult-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-pediaconsult-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-pediaconsult-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-pediaconsult-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="PediaConsult" />
                         </div>
@@ -169,9 +169,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="1" data-title="Insep - InsepTV">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-inseptv-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-inseptv-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-inseptv-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-inseptv-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-inseptv-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-inseptv-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Insep - InsepTV" />
                         </div>
@@ -181,9 +181,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="1" data-title="Biocoop - Fruits et légumes">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-biocoop-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-biocoop-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-biocoop-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-biocoop-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-biocoop-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-biocoop-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Biocoop - Fruits et légumes" />
                         </div>
@@ -193,9 +193,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="1" data-title="Finagaz - Landing page">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-finagaz-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-finagaz-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-finagaz-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-finagaz-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-finagaz-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-finagaz-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Finagaz - Landing page" />
                         </div>
@@ -205,9 +205,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="1" data-title="Ipsos - Emails transactionnels">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-ipsos-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-ipsos-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-ipsos-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-ipsos-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-ipsos-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-ipsos-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Ipsos - Emails transactionnels" />
                         </div>
@@ -217,9 +217,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="1" data-title="René Furterer - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-renefurterer-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-renefurterer-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-renefurterer-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-renefurterer-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-renefurterer-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-renefurterer-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="René Furterer - Refonte" />
                         </div>
@@ -229,9 +229,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="1" data-title="Showroom Privé - Jeu concours">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-showroomprive-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-showroomprive-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-showroomprive-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-showroomprive-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-showroomprive-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-showroomprive-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Showroom Privé - Jeu concours" />
                         </div>
@@ -241,9 +241,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="1" data-title="SEB - Easy PLV Shop">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-seb-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-seb-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-seb-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-seb-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-seb-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-seb-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="SEB - Easy PLV Shop" />
                         </div>
@@ -253,9 +253,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="2" data-title="Bourse de l'immobilier - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-bourseimmobilier-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-bourseimmobilier-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Bourse de l'immobilier - Refonte" />
                         </div>
@@ -265,9 +265,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="2" data-title="Immobilier recrutement - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-bourseimmobilier-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-bourseimmobilier-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Immobilier recrutement - Refonte" />
                         </div>
@@ -277,9 +277,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="2" data-title="Integral Immobilier - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-integralimmobilier-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-integralimmobilier-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-integralimmobilier-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-integralimmobilier-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-integralimmobilier-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-integralimmobilier-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Integral Immobilier - Refonte" />
                         </div>
@@ -289,9 +289,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="2" data-title="Bourse de l'Immobilier Neuf">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-bourseimmobilierneuf-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-bourseimmobilierneuf-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-bourseimmobilierneuf-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-bourseimmobilierneuf-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-bourseimmobilierneuf-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-bourseimmobilierneuf-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Bourse de l'Immobilier Neuf" />
                         </div>
@@ -301,9 +301,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="3" data-title="HySeQua - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-hysequa-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-hysequa-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-hysequa-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-hysequa-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-hysequa-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-hysequa-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="HySeQua - Refonte" />
                         </div>
@@ -313,9 +313,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="3" data-title="Formation HACCP - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-formationhaccp-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-formationhaccp-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-formationhaccp-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-formationhaccp-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-formationhaccp-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-formationhaccp-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Formation HACCP - Refonte" />
                         </div>
@@ -325,9 +325,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="3" data-title="Formation Microbiologie - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-formationmicrobiologie-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-formationmicrobiologie-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-formationmicrobiologie-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-formationmicrobiologie-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-formationmicrobiologie-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-formationmicrobiologie-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Formation Microbiologie - Refonte" />
                         </div>
@@ -337,9 +337,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="3" data-title="HACCP Vin - Création">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-haccpvin-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-haccpvin-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-haccpvin-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-haccpvin-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-haccpvin-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-haccpvin-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="HACCP Vin - Création" />
                         </div>
@@ -349,9 +349,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="3" data-title="HACCP Crèche - Création">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-haccpcreche-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-haccpcreche-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-haccpcreche-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-haccpcreche-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-haccpcreche-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-haccpcreche-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="HACCP Crèche - Création" />
                         </div>
@@ -361,9 +361,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="3" data-title="Formation Hygiène Obligatoire - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-formationhygieneobligatoire-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-formationhygieneobligatoire-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-formationhygieneobligatoire-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-formationhygieneobligatoire-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-formationhygieneobligatoire-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-formationhygieneobligatoire-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Formation Hygiène Obligatoire - Refonte" />
                         </div>
@@ -373,9 +373,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="3" data-title="Laboratoire Alimentaire - Création">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-laboratoirealimentaire-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-laboratoirealimentaire-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-laboratoirealimentaire-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-laboratoirealimentaire-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-laboratoirealimentaire-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-laboratoirealimentaire-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Laboratoire Alimentaire - Création" />
                         </div>
@@ -385,9 +385,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="3" data-title="QualityBoox - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-qualityboox-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-qualityboox-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-qualityboox-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-qualityboox-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-qualityboox-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-qualityboox-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="QualityBoox - Refonte" />
                         </div>
@@ -397,9 +397,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="4" data-title="Architectes Bordeaux - Création de modules">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-architectesbordeaux-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-architectesbordeaux-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-architectesbordeaux-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-architectesbordeaux-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-architectesbordeaux-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-architectesbordeaux-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Architectes Bordeaux - Création de modules" />
                         </div>
@@ -409,9 +409,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="4" data-title="Doudou & Compagnie - Refonte">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-doudouetcompagnie-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-doudouetcompagnie-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-doudouetcompagnie-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-doudouetcompagnie-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-doudouetcompagnie-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-doudouetcompagnie-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Doudou & Compagnie - Refonte" />
                         </div>
@@ -421,9 +421,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="4" data-title="Lestrille - Création de modules">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-lestrille-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-lestrille-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-lestrille-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-lestrille-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-lestrille-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-lestrille-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Lestrille - Création de modules" />
                         </div>
@@ -433,9 +433,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="5" data-title="Formhydable - Création">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-formhydable-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-formhydable-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-formhydable-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-formhydable-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-formhydable-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-formhydable-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Formhydable - Création" />
                         </div>
@@ -445,9 +445,9 @@ social:
                 <div class="scr-itm filtr-item" data-category="5" data-title="Mélissa Aubert Sophrologie - Création">
                     <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
-                            <img src="%theme_url%/assets/media/img/logo-melissaaubertsophrologie-ls-216.jpg"
-                                 srcset="%theme_url%/assets/media/img/logo-melissaaubertsophrologie-ls-216.jpg 216w,
-                                         %theme_url%/assets/media/img/logo-melissaaubertsophrologie-ls-324.jpg 324w"
+                            <img src="%theme_url%/assets/media/img/logo-melissaaubertsophrologie-ls-216.jpg?v=%version%"
+                                 srcset="%theme_url%/assets/media/img/logo-melissaaubertsophrologie-ls-216.jpg?v=%version% 216w,
+                                         %theme_url%/assets/media/img/logo-melissaaubertsophrologie-ls-324.jpg?v=%version% 324w"
                                  class="scr-img"
                                  alt="Mélissa Aubert Sophrologie - Création" />
                         </div>
@@ -471,14 +471,14 @@ social:
                         <span class="highlight">Erwan Chedaleux</span><br />
                         8, rue du clos de l’agneau<br />
                         33290 Ludon-Médoc<br /><br />
-                        <img src="%theme_url%/assets/media/img/email-ls-263.png"
-                             srcset="%theme_url%/assets/media/img/email-ls-263.png 263w,
-                                     %theme_url%/assets/media/img/email-ls-350.png 350w"
+                        <img src="%theme_url%/assets/media/img/email-ls-263.png?v=%version%"
+                             srcset="%theme_url%/assets/media/img/email-ls-263.png?v=%version% 263w,
+                                     %theme_url%/assets/media/img/email-ls-350.png?v=%version% 350w"
                              class="scc-email"
                              alt="" />
-                         <img src="%theme_url%/assets/media/img/phone-ls-131.png"
-                              srcset="%theme_url%/assets/media/img/phone-ls-131.png 131w,
-                                      %theme_url%/assets/media/img/phone-ls-175.png 175w"
+                         <img src="%theme_url%/assets/media/img/phone-ls-131.png?v=%version%"
+                              srcset="%theme_url%/assets/media/img/phone-ls-131.png?v=%version% 131w,
+                                      %theme_url%/assets/media/img/phone-ls-175.png?v=%version% 175w"
                               class="scc-phone"
                               alt="" />
                     </p>

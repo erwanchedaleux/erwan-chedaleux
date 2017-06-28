@@ -893,6 +893,10 @@ class Pico
         $themeUrl = $this->getBaseUrl() . basename($this->getThemesDir()) . '/' . $this->getConfig('theme');
         $content = str_replace('%theme_url%', $themeUrl, $content);
 
+        // replace %version%
+        $version = $this->getConfig('version');
+        $content = str_replace('%version%', $version, $content);
+
         // replace %meta.*%
         if (!empty($meta)) {
             $metaKeys = $metaValues = array();
@@ -1231,6 +1235,7 @@ class Pico
             'current_page' => $this->currentPage,
             'next_page' => $this->nextPage,
             'is_front_page' => ($this->requestFile === $frontPage),
+            'version' => $this->getConfig('version'),
         );
     }
 

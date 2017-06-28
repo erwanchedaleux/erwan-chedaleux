@@ -20,6 +20,7 @@ require( './gulp/strip-code' )( gulp, pkg, config  );
 require( './gulp/watch' )( gulp, pkg, config  );
 require( './gulp/notify' )( gulp, pkg, config  );
 require( './gulp/version' )( gulp, pkg, config  );
+require( './gulp/img-optimization' )( gulp, pkg, config  );
 
 
 gulp.task( 'css', gulp.parallel( 'allcss', 'inlinecss' ) );
@@ -28,6 +29,7 @@ gulp.task( 'css-optimization', gulp.parallel( 'cssmin', 'inline-cssmin' ) );
 gulp.task( 'scripts', gulp.parallel( 'browserify', 'browserifyPolyfill', 'concatMain', 'concatLib', 'concatInlineJSDev', 'concatInlineJSProd' ) );
 gulp.task( 'scripts-optimization', gulp.parallel( 'uglify-main', 'uglify-scripts', 'uglify-lib', 'uglify-picturefill', 'uglify-promises', 'inline-uglify' ) );
 
+gulp.task( 'img-optimization', gulp.parallel( 'optimize-img' ) );
 
 gulp.task( 'watch', gulp.parallel( 'watchJS_Browserify', 'watchJS_Main', 'watchJS_Lib', 'watchJS_Inline', 'watchStylus' ) );
 gulp.task( 'default', gulp.series( 'eslint', 'modernizr', 'clean', 'css', 'scripts', 'notifyBuild' ) );
