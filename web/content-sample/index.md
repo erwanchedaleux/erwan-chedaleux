@@ -489,24 +489,24 @@ social:
             </div>
             <div class="scc-form">
                 <form class="forms contact-form" role="form" method="post">
-                    <div class="fields field-text">
+                    <div class="fields field-text form-group">
                         <label class="labels labels-placeholder" for="contact_form_lastname">Nom</label>
-                        <input type="text" id="contact_form_lastname" name="contact_form_lastname" value="" class="inputs input-text" required>
+                        <input type="text" id="contact_form_lastname" name="contact_form_lastname" value="" class="inputs input-text form-control" data-smk-msg="Veuillez renseigner votre nom." required>
                     </div>
-                    <div class="fields field-text">
+                    <div class="fields field-text form-group">
                         <label class="labels labels-placeholder" for="contact_form_firstname">Prénom</label>
-                        <input type="text" id="contact_form_firstname" name="contact_form_firstname" value="" class="inputs input-text" required>
+                        <input type="text" id="contact_form_firstname" name="contact_form_firstname" value="" class="inputs input-text form-control" data-smk-msg="Veuillez renseigner votre prénom." required>
                     </div>
-                    <div class="fields field-text">
+                    <div class="fields field-text form-group">
                         <label class="labels labels-placeholder" for="contact_form_email">Adresse email</label>
-                        <input type="text" id="contact_form_email" name="contact_form_email" value="" class="inputs input-text" required>
+                        <input type="email" id="contact_form_email" name="contact_form_email" value="" class="inputs input-text form-control" data-smk-msg="Veuillez renseigner une adresse email valide." required>
                     </div>
-                    <div class="fields field-textarea">
+                    <div class="fields field-textarea form-group">
                         <label class="labels labels-placeholder" for="contact_form_message">Message</label>
-                        <textarea id="contact_form_message" name="contact_form_message" class="inputs input-textarea" required></textarea>
+                        <textarea id="contact_form_message" name="contact_form_message" class="inputs input-textarea form-control" data-smk-msg="Veuillez renseigner un message." required></textarea>
                     </div>
                     <div class="fields field-submit">
-                        <button type="submit" name="contact_form_submit" value="true" class="btns btn-1">Envoyer</button>
+                        <button type="submit" name="contact_form_submit" value="true" class="btns btn-1 btn-submit">Envoyer</button>
                     </div>
                 </form>
                 <div class="scc-arrow-2">

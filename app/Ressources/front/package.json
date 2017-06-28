@@ -2,7 +2,7 @@
     "name":                             "erwan-chedaleux",
     "title":                            "Erwan Chedaleux",
     "description":                      "Portfolio",
-    "version":                          "1.0.0",
+    "version":                          "1.0.1",
     "homepage":                         "http://www.erwan-chedaleux.fr/",
     "author": {
         "name":                         "Erwan Chedaleux",
@@ -70,6 +70,7 @@
         "jquery":                       "3.2.1",
         "fullpage.js":                  "2.9.4",
         "typed.js":                     "1.1.7",
-        "filterizr":                    "1.2.5"
+        "filterizr":                    "1.2.5",
+        "smokejs":                      "3.1.0"
     }
 }

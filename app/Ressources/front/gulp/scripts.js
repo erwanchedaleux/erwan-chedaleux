@@ -92,7 +92,8 @@ module.exports = function( gulp, pkg, config ) {
                     config.path.resources.js + 'vendor/jquery/scrolloverflow.js',
                     config.path.resources.js + 'vendor/jquery/jquery.fullpage.js',
                     config.path.resources.js + 'vendor/jquery/typed.js',
-                    config.path.resources.js + 'vendor/jquery/jquery.filterizr.js'
+                    config.path.resources.js + 'vendor/jquery/jquery.filterizr.js',
+                    config.path.resources.js + 'vendor/jquery/smoke.js'
                 ] )
                 .pipe( gulpConcat( 'lib.js' ) )
                 .pipe( gulp.dest( config.path.web.js ) );

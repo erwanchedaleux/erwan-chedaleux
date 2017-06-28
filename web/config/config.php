@@ -50,4 +50,4 @@ $config['rewrite_url'] = true;                              // A boolean indicat
 // $config['custom_setting'] = 'Hello';         // Can be accessed by {{ config.custom_setting }} in a theme
 $pkg_file                = file_get_contents("./../app/Ressources/front/package.json", FILE_USE_INCLUDE_PATH);
 $pkg_json                = json_decode($pkg_file, true);
-$config['version']       = $pkg_json['version'];
+$config['version']       = ( $config['twig_config']['debug'] ? time() : $pkg_json['version'] );

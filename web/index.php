@@ -45,11 +45,7 @@ if (isset($_POST['contact_form_submit']) && !empty($_POST['contact_form_submit']
         $swiftMailer    = Swift_Mailer::newInstance($swiftTransport);
         $result         = $swiftMailer->send($swiftMessage);
 
-        unset($_POST);
-
-        if($result){
-            echo "<script>alert('Merci ! Votre message a bien été envoyé.')</script>";
-        }else{
+        if(!$result){
             echo "<script>alert('Désolé, une erreur s\'est produite, veuillez réessayer ultérieurement.')</script>";
         }
 

@@ -90,7 +90,7 @@
     .fields
         position                        relative
         display                         block
-        height                          45px
+        min-height                      45px
         margin-bottom                   30px
 
     .labels
@@ -100,9 +100,12 @@
 
     .labels-placeholder
         position                        absolute
-        top                             50%
+        z-index                         2
+        top                             22px
         left                            0
         transform                       translateY( -50% )
+        cursor                          text
+        pointer-events                  none
 
     .inputs
         width                           100%
@@ -140,6 +143,9 @@
     .fa-arrow-circle-right
         font-size                       13rem
         color                           $color5
+
+input:-webkit-autofill
+    -webkit-box-shadow                  0 0 0 30px $color2 inset
 
 
 /* Mediaqueries Mobile (639px) */

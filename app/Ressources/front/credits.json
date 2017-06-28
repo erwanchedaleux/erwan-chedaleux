@@ -65,6 +65,14 @@
         "@see {@link http://yiotis.net/filterizr}",
         "@version 1.2.5",
         "@license MIT License",
+        "\n\n",
+        "Smoke form validation and components for Bootstrap",
+        "@package Smoke",
+        "@version 3.0",
+        "@link https://github.com/alfredobarron/smoke The Smoke GitHub project",
+        "@author Alfredo Barron <alfredobarronc@gmail.com>",
+        "@copyright 2015 Alfredo Barron",
+        "@license https://www.gnu.org/licenses/lgpl.html GNU Lesser General Public License",
         "\n*/\n\n"
     ],
     "main": [
