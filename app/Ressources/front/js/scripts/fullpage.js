@@ -9,7 +9,7 @@ module.exports = ( function ( $ ) {
             navigation:                         true,
             navigationTooltips:                 [ 'Accueil', 'A propos de moi', 'Références', 'contact', '' ],
             onLeave: function( index ){
-                if ( window.matchMedia('(max-width: 639px)').matches ) {
+                if ( window.matchMedia('(max-width: 1023px)').matches ) {
                     if( index === 3 ){
                         $.fn.fullpage.setAutoScrolling( false );
                     } else {

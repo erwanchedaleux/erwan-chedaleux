@@ -20,7 +20,7 @@ module.exports = ( function ( $ ) {
          * @return {void}
          */
         function toggleMobileNavigation() {
-            if ( window.matchMedia('(max-width: 639px)').matches ) {
+            if ( window.matchMedia('(max-width: 1023px)').matches ) {
                 $body.toggleClass( NAV_OPENED_CLASS ).toggleClass( NO_SCROLL_CLASS );
                 $mask.toggleClass( ACTIVE_CLASS );
 
@@ -35,13 +35,13 @@ module.exports = ( function ( $ ) {
         }
 
         /**
-         * Allows to remove mobile navigation aspect if window is more than 639px
+         * Allows to remove mobile navigation aspect if window is more than 1023px
          * Or if user click on item menu
          * @param  {event} e - event
          * @return {void}
          */
         function removeMobileNavigation( e ) {
-            if ( e.type === 'resize' && window.matchMedia('(max-width: 639px)').matches ) {
+            if ( e.type === 'resize' && window.matchMedia('(max-width: 1023px)').matches ) {
                 return;
             }
 

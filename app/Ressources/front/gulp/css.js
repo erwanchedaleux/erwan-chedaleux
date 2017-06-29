@@ -13,13 +13,13 @@ module.exports = function( gulp, pkg, config ) {
                 .src( [
                     config.path.resources.css + 'fonts.styl',
                     config.path.resources.css + 'styles.styl',
-                    config.path.resources.css + '_base64/images.styl',
+                    // config.path.resources.css + '_base64/images.styl',
                     config.path.resources.css + 'font-awesome.styl',
                     config.path.resources.css + 'fullpage.styl'
                 ] )
                 .pipe( stylus( {
                     "compress" :                                        false,
-                    "use":                                              [ require( './tools/stylus-b64.js' )( config.path.resources.cssImg ) ],
+                    // "use":                                              [ require( './tools/stylus-b64.js' )( config.path.resources.cssImg ) ],
                     "rawDefine":                                        {
                         "projectVars":                                  projectVars
                     }
@@ -37,7 +37,7 @@ module.exports = function( gulp, pkg, config ) {
                 ] )
                 .pipe( stylus( {
                     "compress" :                                        false,
-                    "use":                                              [ require( './tools/stylus-b64.js' )( config.path.resources.cssImg ) ],
+                    // "use":                                              [ require( './tools/stylus-b64.js' )( config.path.resources.cssImg ) ],
                     "rawDefine":                                        {
                         "projectVars":                                  projectVars
                     }

@@ -34,7 +34,7 @@ module.exports = ( function ( $ ) {
 
         }
 
-        if ( $gallery ) {
+        if ( $gallery.length ) {
             new Gallery( $gallery );
 
         }

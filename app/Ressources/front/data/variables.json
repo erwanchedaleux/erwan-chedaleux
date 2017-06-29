@@ -3,8 +3,8 @@
         "innerWidth":                       960,
         "smallScreenMinWidth":              639,
         "smallScreenMaxWidth":              640,
-        "largeScreenMinWidth":              1159,
-        "largeScreenMaxWidth":              1160
+        "largeScreenMinWidth":              1023,
+        "largeScreenMaxWidth":              1024
     }
 
 }

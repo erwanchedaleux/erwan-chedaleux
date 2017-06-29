@@ -30,7 +30,7 @@ social:
     <div class="sch-content">
         <h1 class="sch-title-1">Je suis <span class="highlight"><span id="sch-typed"></span></span></h1>
         <p class="sch-text">
-            Passionné depuis le plus jeune âge par les <span class="highlight">nouvelles technologies</span>, je suis avec intérêt toutes les innovations dans le domaine du <span class="highlight">Web</span>. A ce jour, je suis également à la recherche de nouvelles <span class="highlight">opportunités professionnelles</span>. Pour plus de précisions, je vous invite à <a href="%theme_url%/assets/media/pdf/cv-erwan-chedaleux.pdf" title="CV de Erwan Chedaleux" target="_blank" class="lnk">télécharger mon CV</a>.
+            Passionné depuis le plus jeune âge par les <span class="highlight">nouvelles technologies</span>, je suis avec intérêt toutes les innovations dans le domaine du <span class="highlight">Web</span>. A ce jour, je suis également à la recherche de nouvelles <span class="highlight">opportunités professionnelles</span>. Pour plus de précisions, je vous invite à <a href="#about-me" title="CV de Erwan Chedaleux" class="lnk">télécharger mon CV</a>.
         </p>
         <div class="sch-social-networks">
             <ul class="sch-list">
@@ -83,7 +83,7 @@ social:
                     Après avoir effectué un Master 2 spécialisé dans le développement web, j’ai pu intégrer le monde professionnel à l’issue de mon stage de fin d’étude. J’ai évolué ensuite dans plusieurs entreprises tels que <a href="http://www.hysequa.fr/" rel="nofollow" target="_blank" class="lnk">HySeQua</a>, la <a href="https://www.bourse-immobilier.fr/" rel="nofollow" target="_blank" class="lnk">Bourse de l’Immobilier</a> ou encore <a href="https://www.cws-studio.com/" rel="nofollow" target="_blank" class="lnk">Creative Web Solutions</a>. <br />
                     Je suis actuellement à l’écoute du marché et serai ravi d’intégrer votre entreprise. Pour  plus d’informations, je vous invite à télécharger mon CV ci-dessous et/ou à me contacter.
                 </p>
-                <a href="#" class="scam-btn btns btn-1">
+                <a href="%theme_url%/assets/media/pdf/cv-erwan-chedaleux.pdf" target="_blank" class="scam-btn btns btn-1">
                     <i class="fa fa-file-pdf-o"></i>
                     Télécharger mon CV
                 </a>
@@ -119,7 +119,7 @@ social:
             </div>
             <div class="scr-filtr-container filtr-container">
                 <div class="scr-itm filtr-item" data-category="1" data-title="SEAT - Ventes privées">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.seat.fr/ventes-privees.html" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-seat-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-seat-ls-216.jpg?v=%version% 216w,
@@ -131,7 +131,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="1" data-title="Volkswagen - Covoiturage">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://covoiturage.volkswagen.fr/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-volkswagen-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-volkswagen-ls-216.jpg?v=%version% 216w,
@@ -143,7 +143,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="1" data-title="Volkswagen - Grage Sound">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://garagesound.volkswagen.fr/home" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-garagesound-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-garagesound-ls-216.jpg?v=%version% 216w,
@@ -155,7 +155,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="1" data-title="PediaConsult">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="https://pediaconsult.com/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-pediaconsult-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-pediaconsult-ls-216.jpg?v=%version% 216w,
@@ -167,7 +167,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="1" data-title="Insep - InsepTV">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <div class="scr-lnk">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-inseptv-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-inseptv-ls-216.jpg?v=%version% 216w,
@@ -176,10 +176,10 @@ social:
                                  alt="Insep - InsepTV" />
                         </div>
                         <div class="scr-caption">Insep - InsepTV</div>
-                    </a>
+                    </div>
                 </div>
                 <div class="scr-itm filtr-item" data-category="1" data-title="Biocoop - Fruits et légumes">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.biocoop.fr/produits-bio/le-mijoteur/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-biocoop-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-biocoop-ls-216.jpg?v=%version% 216w,
@@ -191,7 +191,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="1" data-title="Finagaz - Landing page">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <div class="scr-lnk">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-finagaz-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-finagaz-ls-216.jpg?v=%version% 216w,
@@ -200,10 +200,10 @@ social:
                                  alt="Finagaz - Landing page" />
                         </div>
                         <div class="scr-caption">Finagaz - Landing page</div>
-                    </a>
+                    </div>
                 </div>
                 <div class="scr-itm filtr-item" data-category="1" data-title="Ipsos - Emails transactionnels">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <div class="scr-lnk">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-ipsos-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-ipsos-ls-216.jpg?v=%version% 216w,
@@ -212,10 +212,10 @@ social:
                                  alt="Ipsos - Emails transactionnels" />
                         </div>
                         <div class="scr-caption">Ipsos - Emails transactionnels</div>
-                    </a>
+                    </div>
                 </div>
                 <div class="scr-itm filtr-item" data-category="1" data-title="René Furterer - Refonte">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="https://www.renefurterer.com/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-renefurterer-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-renefurterer-ls-216.jpg?v=%version% 216w,
@@ -227,7 +227,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="1" data-title="Showroom Privé - Jeu concours">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <div class="scr-lnk">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-showroomprive-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-showroomprive-ls-216.jpg?v=%version% 216w,
@@ -236,10 +236,10 @@ social:
                                  alt="Showroom Privé - Jeu concours" />
                         </div>
                         <div class="scr-caption">Showroom Privé - Jeu concours</div>
-                    </a>
+                    </div>
                 </div>
                 <div class="scr-itm filtr-item" data-category="1" data-title="SEB - Easy PLV Shop">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="https://seb-easy-plv-shop.com/login" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-seb-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-seb-ls-216.jpg?v=%version% 216w,
@@ -251,7 +251,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="2" data-title="Bourse de l'immobilier - Refonte">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="https://www.bourse-immobilier.fr/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg?v=%version% 216w,
@@ -263,7 +263,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="2" data-title="Immobilier recrutement - Refonte">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.immobilier-recrutement.fr/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-bourseimmobilier-ls-216.jpg?v=%version% 216w,
@@ -275,7 +275,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="2" data-title="Integral Immobilier - Refonte">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.integral-immobilier.fr/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-integralimmobilier-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-integralimmobilier-ls-216.jpg?v=%version% 216w,
@@ -287,7 +287,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="2" data-title="Bourse de l'Immobilier Neuf">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.bourse-immobilier-neuf.fr/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-bourseimmobilierneuf-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-bourseimmobilierneuf-ls-216.jpg?v=%version% 216w,
@@ -299,7 +299,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="3" data-title="HySeQua - Refonte">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.hysequa.fr/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-hysequa-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-hysequa-ls-216.jpg?v=%version% 216w,
@@ -311,7 +311,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="3" data-title="Formation HACCP - Refonte">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.formation-haccp.com/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-formationhaccp-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-formationhaccp-ls-216.jpg?v=%version% 216w,
@@ -323,7 +323,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="3" data-title="Formation Microbiologie - Refonte">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.formation-microbiologie.com/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-formationmicrobiologie-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-formationmicrobiologie-ls-216.jpg?v=%version% 216w,
@@ -335,7 +335,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="3" data-title="HACCP Vin - Création">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.haccp-vin.com/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-haccpvin-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-haccpvin-ls-216.jpg?v=%version% 216w,
@@ -347,7 +347,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="3" data-title="HACCP Crèche - Création">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.haccp-creche.com/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-haccpcreche-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-haccpcreche-ls-216.jpg?v=%version% 216w,
@@ -359,7 +359,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="3" data-title="Formation Hygiène Obligatoire - Refonte">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.formation-hygiene-obligatoire.fr/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-formationhygieneobligatoire-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-formationhygieneobligatoire-ls-216.jpg?v=%version% 216w,
@@ -371,7 +371,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="3" data-title="Laboratoire Alimentaire - Création">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.laboratoire-alimentaire.fr/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-laboratoirealimentaire-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-laboratoirealimentaire-ls-216.jpg?v=%version% 216w,
@@ -383,7 +383,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="3" data-title="QualityBoox - Refonte">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.qualityboox.com/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-qualityboox-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-qualityboox-ls-216.jpg?v=%version% 216w,
@@ -395,7 +395,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="4" data-title="Architectes Bordeaux - Création de modules">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.architectes-bordeaux.com/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-architectesbordeaux-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-architectesbordeaux-ls-216.jpg?v=%version% 216w,
@@ -407,7 +407,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="4" data-title="Doudou & Compagnie - Refonte">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.doudouetcompagnie.com/25-collection" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-doudouetcompagnie-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-doudouetcompagnie-ls-216.jpg?v=%version% 216w,
@@ -419,7 +419,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="4" data-title="Lestrille - Création de modules">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.lestrille.com/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-lestrille-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-lestrille-ls-216.jpg?v=%version% 216w,
@@ -431,7 +431,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="5" data-title="Formhydable - Création">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://www.formhydable.com/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-formhydable-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-formhydable-ls-216.jpg?v=%version% 216w,
@@ -443,7 +443,7 @@ social:
                     </a>
                 </div>
                 <div class="scr-itm filtr-item" data-category="5" data-title="Mélissa Aubert Sophrologie - Création">
-                    <a href="#" class="scr-lnk" target="_blank" rel="nofollow">
+                    <a href="http://melissa-aubert-sophrologie.fr/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-melissaaubertsophrologie-ls-216.jpg?v=%version%"
                                  srcset="%theme_url%/assets/media/img/logo-melissaaubertsophrologie-ls-216.jpg?v=%version% 216w,
