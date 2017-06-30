@@ -43,7 +43,6 @@ module.exports = ( function ( $ ) {
             }, 1000 );
 
             if( $form.smkValidate() ){
-                $form.smkClear();
 
                 $.smkAlert( {
                     text:                       'Merci, votre message a bien été envoyé !',
@@ -51,11 +50,12 @@ module.exports = ( function ( $ ) {
                     icon:                       'fa fa-check-circle',
                 } );
 
+                $.fn.fullpage.moveTo( 1 );
+
                 setTimeout( function() {
-                    window.location.replace( '#home' );
-                    location.reload();
-                    
-                }, 5000 );
+                    $form.submit();
+
+                }, 3000 );
 
             }
 

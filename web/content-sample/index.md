@@ -488,7 +488,7 @@ social:
                 </div>
             </div>
             <div class="scc-form">
-                <form class="forms contact-form" role="form" method="post">
+                <form class="forms contact-form" role="form" action="" method="post">
                     <div class="fields field-text form-group">
                         <label class="labels labels-placeholder" for="contact_form_lastname">Nom</label>
                         <input type="text" id="contact_form_lastname" name="contact_form_lastname" value="" class="inputs input-text form-control" data-smk-msg="Veuillez renseigner votre nom." required>

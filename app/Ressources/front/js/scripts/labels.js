@@ -88,7 +88,6 @@ module.exports = ( function ( /*$*/ ) {
         * Makes disapear the label element on keyup field
         */
         function keyupLabels( e ) {
-            console.log( e.currentTarget.value );
             if ( e.currentTarget.value !== '' && e.currentTarget.value != null ) {
                 state               = STATE_KEYUP;
 
