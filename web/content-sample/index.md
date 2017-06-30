@@ -83,7 +83,7 @@ social:
                     Après avoir effectué un Master 2 spécialisé dans le développement web, j’ai pu intégrer le monde professionnel à l’issue de mon stage de fin d’étude. J’ai évolué ensuite dans plusieurs entreprises tels que <a href="http://www.hysequa.fr/" rel="nofollow" target="_blank" class="lnk">HySeQua</a>, la <a href="https://www.bourse-immobilier.fr/" rel="nofollow" target="_blank" class="lnk">Bourse de l’Immobilier</a> ou encore <a href="https://www.cws-studio.com/" rel="nofollow" target="_blank" class="lnk">Creative Web Solutions</a>. <br />
                     Je suis actuellement à l’écoute du marché et serai ravi d’intégrer votre entreprise. Pour  plus d’informations, je vous invite à télécharger mon CV ci-dessous et/ou à me contacter.
                 </p>
-                <a href="%theme_url%/assets/media/pdf/cv-erwan-chedaleux.pdf" target="_blank" class="scam-btn btns btn-1">
+                <a href="%theme_url%/assets/media/pdf/cv-erwan-chedaleux.pdf?v=%version%" target="_blank" class="scam-btn btns btn-1">
                     <i class="fa fa-file-pdf-o"></i>
                     Télécharger mon CV
                 </a>

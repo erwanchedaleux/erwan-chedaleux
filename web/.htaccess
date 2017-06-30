@@ -1,0 +1,38 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # May be required to access sub directories
+    #RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?$1 [L,QSA]
+    RewriteRule ^(\.git|config|content|content-sample|lib|vendor)(/.*)?$ index.php?$0 [L,QSA]
+    RewriteRule ^(CHANGELOG\.md|composer\.(json|lock)) index.php?404 [L]
+
+    <IfModule mod_env.c>
+        SetEnv PICO_URL_REWRITING 1
+    </IfModule>
+</IfModule>
+
+RewriteRule ^www.erwan-chedaleux.fr/web-formations/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/web-formations/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/web-experiences/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/contact/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/web-experiences/insudiet/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/web-experiences/hysequa/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/web-experiences/heurisko/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/web-experiences/3d/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/web-experiences/france-3/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/actualites/wordpress-plugins-indispensables/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/web-experiences/bourse-immobilier/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/web-experiences/omega-web-consulting/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/formations/bac-sti-electronique-2004-2007/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/actualites/google-affichage-dans-les-serp/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/formations/master-infographiemultimedia-specialite-conception-web-2011-2013/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/formations/iut-services-reseaux-de-communication-2007-2010/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/wp-content/uploads/2017/05/erwan-chedaleux-cv.pdf$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/formations/licence-professionnelle-activites-techniques-de-communication-option-webdesign-2010-2011/$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/wp-content/uploads/2015/12/cv-de-erwan-chedaleux.pdf$ www.erwan-chedaleux.fr/ [R=301,L]
+RewriteRule ^www.erwan-chedaleux.fr/wp-content/uploads/2017/05/cv-de-erwan-chedaleux.pdf$ www.erwan-chedaleux.fr/ [R=301,L]
+
+# Prevent file browsing
+Options -Indexes -MultiViews

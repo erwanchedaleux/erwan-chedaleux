@@ -1,7 +1,7 @@
 /*!
  *  Erwan Chedaleux
  *  http://www.erwan-chedaleux.fr
- *  @version: 1.1.0
+ *  @version: 1.2.0
  *  
  *  Thanks to 
  *
