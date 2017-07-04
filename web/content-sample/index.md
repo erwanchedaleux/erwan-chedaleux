@@ -430,7 +430,7 @@ social:
                         <div class="scr-caption">Lestrille - Création de modules</div>
                     </a>
                 </div>
-                <div class="scr-itm filtr-item" data-category="5" data-title="Formhydable - Création">
+                <!-- <div class="scr-itm filtr-item" data-category="5" data-title="Formhydable - Création">
                     <a href="http://www.formhydable.com/" class="scr-lnk" target="_blank" rel="nofollow">
                         <div class="scr-background">
                             <img src="%theme_url%/assets/media/img/logo-formhydable-ls-216.jpg?v=%version%"
@@ -453,7 +453,7 @@ social:
                         </div>
                         <div class="scr-caption">Mélissa Aubert Sophrologie - Création</div>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

@@ -29,9 +29,10 @@ isset($firstname) && !empty($firstname) &&
 isset($email) && !empty($email) &&
 isset($message) && !empty($message)) {
 
+
     $mailFrom       = 'contact@erwan-chedaleux.fr';
     $mailTo         = 'erwan.chedaleux@gmail.com';
-    $swiftTransport = Swift_SmtpTransport::newInstance('SSL0.OVH.NET', 587) ->setUsername('contact@erwan-chedaleux.fr') ->setPassword('XXXXXX');
+    $swiftTransport = Swift_SmtpTransport::newInstance('SSL0.OVH.NET', 587) ->setUsername('contact@erwan-chedaleux.fr') ->setPassword('XXXXXXX');
 
 
     // send email
