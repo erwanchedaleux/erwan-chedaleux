@@ -27,7 +27,8 @@
         "twig/twig": "^1.18",
         "erusev/parsedown-extra": "^0.7",
         "symfony/yaml" : "^2.3",
-        "swiftmailer/swiftmailer": ">=5.4.8"
+        "swiftmailer/swiftmailer": ">=5.4.8",
+        "michelf/php-markdown": "^1.7.0"
     },
     "require-dev" : {
         "phpdocumentor/phpdocumentor": "^2.8",

@@ -12,7 +12,7 @@
  * BASIC
  */
 $config['site_title'] = 'Erwan Chedaleux';                  // Site title
-// $config['base_url'] = 'http://www.erwan-chedaleux.fr/';      // Override base URL (e.g. http://example.com)
+$config['base_url'] = 'http://www.erwan-chedaleux.fr/';      // Override base URL (e.g. http://example.com)
 $config['rewrite_url'] = true;                              // A boolean indicating forced URL rewriting
 
 /*
@@ -23,6 +23,11 @@ $config['rewrite_url'] = true;                              // A boolean indicat
      'autoescape' => false,                   // Auto-escape Twig vars
      'debug' => false                          // Enable Twig debug
  );
+
+/*
+ * PLUGINS
+ */
+$config['pages_order_by'] = 'placing';
 
 /*
  * CUSTOM

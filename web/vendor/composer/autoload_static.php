@@ -256,6 +256,10 @@ class ComposerStaticInited93bff9e186c49b9a1e54f19b6e2e6e
         ),
         'M' => 
         array (
+            'Michelf' => 
+            array (
+                0 => __DIR__ . '/..' . '/michelf/php-markdown',
+            ),
             'Metadata\\' => 
             array (
                 0 => __DIR__ . '/..' . '/jms/metadata/src',

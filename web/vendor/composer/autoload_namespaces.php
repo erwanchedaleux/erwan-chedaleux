@@ -15,6 +15,7 @@ return array(
     'PhpCollection' => array($vendorDir . '/phpcollection/phpcollection/src'),
     'ParsedownExtra' => array($vendorDir . '/erusev/parsedown-extra'),
     'Parsedown' => array($vendorDir . '/erusev/parsedown'),
+    'Michelf' => array($vendorDir . '/michelf/php-markdown'),
     'Metadata\\' => array($vendorDir . '/jms/metadata/src'),
     'KevinGH\\Version' => array($vendorDir . '/kherge/version/src/lib'),
     'JMS\\Serializer' => array($vendorDir . '/jms/serializer/src'),
